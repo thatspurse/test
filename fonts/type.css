@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: Hero ;
+    src: url('herosa.ttf');
+}
+
+@font-face {
+    font-family: CustomFont2;
+    src: url('CustomFont2.ttf');
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 1rem;
+    font-size: 6rem;
+    font-weight: 800;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    width: max-content;
+    margin: auto;
+    margin-top: 1vh;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+
+  h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 0vh;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 13%;
+  }
+
+  p {
+    margin-top: 1vh;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  a{
+    color: white;
+    font-size: 1.7em;
+}
+
+  h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    margin-top: 1vh;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 0.7;
+    margin-bottom: 1.3vh;
+  }
+
+  h5{
+    border: solid white 4px;
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    width: 71%;
+  }
+
+  h7{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: initial;
+    font-weight: bolder;
+    left: 8%;
+    margin-bottom: 5rem;
+    position: absolute;
+  }
+
+  h8{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: initial;
+    font-weight: 400;
+    left: 8%;
+    right: 8%;
+    line-height: 2.5rem;
+    margin-top: 8%;
+    position: absolute;
+  }
+
+  h9{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    text-align: initial;
+    font-weight: bold;
+    left: 8%;
+    right: 8%;
+    line-height: 2.5rem;
+    margin-top: 25rem;
+    position: absolute;
+    text-decoration: underline;
+  }
