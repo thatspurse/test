@@ -20,6 +20,7 @@ h1 {
   padding: 1rem;
   font-size: 6rem;
   font-weight: 800;
+  letter-spacing: -1px;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
   margin-top: 1vh;
   font-size: 2rem;
   font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h3 {
@@ -41,6 +43,7 @@ h3 {
   text-align: center;
   font-weight: bolder;
   padding: 13%;
+  letter-spacing: -1px;
 }
 
 p {
@@ -48,11 +51,13 @@ p {
   font-size: 1.45rem;
   margin-bottom: 1rem;
   line-height: 2em;
+  letter-spacing: -1px;
 }
 
 a {
   color: white;
   font-size: 1.7em;
+  letter-spacing: -1px;
 }
 
 h4 {
@@ -64,6 +69,7 @@ h4 {
   font-weight: 900;
   line-height: 0.7;
   margin-bottom: 1.3vh;
+  letter-spacing: -1px;
 }
 
 h5 {
@@ -76,6 +82,7 @@ h5 {
   padding: 2%;
   width: 71%;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: -1px;
 }
 
 h7 {
@@ -87,6 +94,7 @@ h7 {
   left: 8%;
   top: 700px;
   position: absolute;
+  letter-spacing: -1px;
 }
 
 h8 {
@@ -100,9 +108,11 @@ h8 {
   line-height: 2.5rem;
   margin-top: 10%;
   position: absolute;
+  letter-spacing: -1px;
 }
 
 h9 {
+  letter-spacing: -1px;
   color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   font-size: 2.3rem;
@@ -124,7 +134,7 @@ h10 {
   font-size: 2.6vw;
 
   font-weight: 600;
-
+  letter-spacing: -1px;
   line-height: 2.5rem;
 }
 
@@ -135,4 +145,5 @@ h11 {
   font-weight: 700;
   font-family: "Montserrat";
   line-height: 2em;
+  letter-spacing: -1px;
 }
