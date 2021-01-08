@@ -72,6 +72,13 @@ section {
   font-weight: 900;
 }
 
+.section1 {
+  background-color: #000000;
+  min-height: 150vh;
+  width: 100%;
+  z-index: -1;
+}
+
 section:nth-of-type(1) {
   margin-top: 84px;
 }
