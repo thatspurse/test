@@ -3,7 +3,7 @@
   cursor: pointer;
   fill: #1e272e;
   padding-top: 5%;
-  padding-right: 4%;
+  padding-right: 2%;
 }
 .burger-btn--1, .burger-btn--2, .burger-btn--3 {
   transition: 0.5s;
