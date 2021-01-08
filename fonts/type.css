@@ -147,3 +147,13 @@ h11 {
   line-height: 2em;
   letter-spacing: -1px;
 }
+
+h12 {
+  margin-top: 1vh;
+  font-size: 4rem;
+  margin-bottom: 0rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+  line-height: 1.5em;
+  letter-spacing: -1px;
+}

@@ -6,8 +6,7 @@
   overflow: visible;
   cursor: pointer;
   fill: black;
-  padding-top: 5%;
-  padding-right: 5%;
+  padding: 5%;
   float: right;
 }
 .burger-btn--1, .burger-btn--2, .burger-btn--3 {
@@ -65,7 +64,7 @@
   letter-spacing: -2px;
   text-decoration: none;
   font-family: "Montserrat";
-  line-height: 4vh;
+  line-height: 1.5em;
 }
 
 /*# sourceMappingURL=menu.css.map */

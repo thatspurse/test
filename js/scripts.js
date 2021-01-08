@@ -26,16 +26,19 @@ window.addEventListener("scroll", function () {
 
 const button = document.querySelector(".burger-btn");
 const menu = document.querySelector(".menu");
+const bubble_1 = document.querySelector(".bubble_trans");
 const body = document.querySelector("body");
+const box = document.querySelector("box");
 let logo = document.getElementById("logo");
 const menuop = document.getElementById("menu");
 
 button.addEventListener("click", () => {
+  menu.classList.toggle("menu-expanded");
   button.classList.toggle("active");
   body.classList.toggle("position-fixed");
   logo.classList.toggle("filter_white");
+  bubble_1.classList.toggle("op0");
   menuop.classList.toggle("op1");
-  menu.classList.toggle("menu-expanded");
 });
 
 // Look for .hamburger

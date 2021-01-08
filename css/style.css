@@ -4,6 +4,10 @@
   margin-bottom: 3vh;
 }
 
+ul {
+  opacity: 0;
+}
+
 .col {
   max-width: 49%;
   margin: auto;
@@ -71,6 +75,14 @@ section:nth-of-type(1) {
 
 .op1 {
   opacity: 1;
+}
+
+.op0 {
+  opacity: 0;
+}
+
+.box {
+  opacity: 0;
 }
 
 #navArea ul {

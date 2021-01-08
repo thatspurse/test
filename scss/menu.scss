@@ -34,8 +34,7 @@ $logo-color: #00cec9;
   overflow: visible;
   cursor: pointer;
   fill: black;
-  padding-top: 5%;
-  padding-right: 5%;
+  padding: 5%;
   float: right;
 
   &--1,
@@ -103,6 +102,6 @@ $logo-color: #00cec9;
     letter-spacing: -2px;
     text-decoration: none;
     font-family: "Montserrat";
-    line-height: 4vh;
+    line-height: 1.5em;
   }
 }
