@@ -48,7 +48,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 4% 2%;
-  position: absolute;
+  position: fixed;
   width: 100%;
 
   width: 96%;
