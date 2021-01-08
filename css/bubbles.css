@@ -20,9 +20,8 @@ body .bubble_trans {
   position: relative;
   grid-area: footer;
   min-height: 4rem;
-  margin-top: 15vh;
+  margin-top: 30%;
 }
-
 body .bubble_trans .bubbles {
   position: absolute;
   top: 0;
@@ -36,9 +35,7 @@ body .bubble_trans .bubbles .bubble {
   left: var(--position, 50%);
   background: var(--footer-background);
   border-radius: 100%;
-  animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
-    fade-out var(--time, 4s) ease-in infinite var(--delay, 0s),
-    bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+  animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), fade-out var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
   transform: translate(-50%, 100%);
 }
 body .bubble_trans .content {

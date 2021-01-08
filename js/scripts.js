@@ -8,7 +8,6 @@ function sleep(milliseconds) {
 
 window.addEventListener("scroll", function () {
   let navArea = document.getElementById("navArea");
-  let logo = document.getElementById("logo");
 
   if (window.pageYOffset > 800) {
     navArea.classList.add("white");
@@ -27,10 +26,15 @@ window.addEventListener("scroll", function () {
 
 const button = document.querySelector(".burger-btn");
 const menu = document.querySelector(".menu");
+const body = document.querySelector("body");
+let logo = document.getElementById("logo");
+const menuop = document.getElementById("menu");
 
 button.addEventListener("click", () => {
   button.classList.toggle("active");
-
+  body.classList.toggle("position-fixed");
+  logo.classList.toggle("filter_white");
+  menuop.classList.toggle("op1");
   menu.classList.toggle("menu-expanded");
 });
 
