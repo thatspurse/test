@@ -48,12 +48,12 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 4% 2%;
-  position: fixed;
+  position: absolute;
   width: 100%;
 
   width: 96%;
   transition: background 0.5s;
-  top: -2%;
+  top: 0;
 }
 section {
   height: 500px;

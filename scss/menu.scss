@@ -30,6 +30,10 @@ $logo-color: #00cec9;
   fill: white;
 }
 
+svg.burger-btn.active {
+  padding-top: 9%;
+}
+
 .burger-btn {
   overflow: visible;
   cursor: pointer;
@@ -77,6 +81,7 @@ $logo-color: #00cec9;
   background: black;
   z-index: 5;
   fill: #ffffff;
+  top: inherit;
 
   ul {
     transition: all 0s;

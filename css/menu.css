@@ -2,6 +2,10 @@
   fill: white;
 }
 
+svg.burger-btn.active {
+  padding-top: 9%;
+}
+
 .burger-btn {
   overflow: visible;
   cursor: pointer;
@@ -42,6 +46,7 @@
   background: black;
   z-index: 5;
   fill: #ffffff;
+  top: inherit;
 }
 .menu-expanded ul {
   transition: all 0s;
