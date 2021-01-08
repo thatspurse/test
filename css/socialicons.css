@@ -5,6 +5,7 @@
 #social {
   display: table-cell;
   vertical-align: middle;
+  background-color: white;
 }
 #social ul {
   text-align: center;

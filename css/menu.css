@@ -3,7 +3,7 @@
   cursor: pointer;
   fill: #000000;
   padding-top: 5%;
-  padding-right: 4%;
+  padding-right: 5%;
   float: right;
 }
 .burger-btn--1, .burger-btn--2, .burger-btn--3 {
@@ -30,13 +30,6 @@
 
 .menu-expanded {
   transition: all 0.25s;
-  text-align: center;
-  line-height: 200px;
-  height: 100%;
-  width: 100%;
-  border-radius: 0px;
-  top: 0;
-  padding-top: 2%;
 }
 .menu-expanded ul {
   transition: all 0s;
