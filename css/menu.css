@@ -42,7 +42,6 @@
   background: black;
   z-index: 5;
   fill: #ffffff;
-  top: inherit;
 }
 .menu-expanded ul {
   transition: all 0s;
