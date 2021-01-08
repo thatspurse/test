@@ -8,6 +8,7 @@ function sleep(milliseconds) {
 
 window.addEventListener("scroll", function () {
   let navArea = document.getElementById("navArea");
+  let logo = document.getElementById("logo");
 
   if (window.pageYOffset > 800) {
     navArea.classList.add("white");
@@ -29,7 +30,7 @@ const menu = document.querySelector(".menu");
 
 button.addEventListener("click", () => {
   button.classList.toggle("active");
-  button.classList.toggle("white");
+
   menu.classList.toggle("menu-expanded");
 });
 

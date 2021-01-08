@@ -29,7 +29,7 @@ $logo-color: #00cec9;
 .burger-btn {
   overflow: visible;
   cursor: pointer;
-  fill: #1e272e;
+  fill: #000000;
   padding-top: 5%;
   padding-right: 4%;
   float: right;
@@ -69,9 +69,9 @@ $logo-color: #00cec9;
   height: 100%;
   width: 100%;
   border-radius: 0px;
+  top: 0;
+  padding-top: 2%;
 
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.85);
   ul {
     transition: all 0s;
     position: relative;
