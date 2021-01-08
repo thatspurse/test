@@ -20,7 +20,7 @@ body .bubble_trans {
   position: relative;
   grid-area: footer;
   min-height: 4rem;
-  margin-top: 30%;
+  margin-top: 20vh;
 }
 body .bubble_trans .bubbles {
   position: absolute;
@@ -87,8 +87,7 @@ body .main {
 }
 
 @keyframes bubble-size {
-  0%,
-  75% {
+  0%, 75% {
     width: var(--size, 4rem);
     height: var(--size, 2rem);
   }

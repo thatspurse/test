@@ -20,7 +20,7 @@ body {
     position: relative;
     grid-area: footer;
     min-height: 4rem;
-    margin-top: 40vh;
+    margin-top: 20vh;
     .bubbles {
       position: absolute;
       top: 0;
@@ -77,6 +77,12 @@ body {
         }
       }
     }
+  }
+
+  .section1 {
+    background-color: #000000;
+    min-height: 150vh;
+    width: 100%;
   }
 
   .main {
