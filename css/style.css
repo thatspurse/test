@@ -15,8 +15,8 @@
   padding-right: 0px;
 }
 
-.width100 {
-  width: 100%;
+.white {
+  fill: #ffffff;
 }
 
 .service-ico {
@@ -97,6 +97,12 @@ section:nth-of-type(1) {
 section:nth-of-type(2n) {
   background: darkcyan;
   color: #fff;
+}
+
+.last {
+  height: 21vh;
+  background-color: white;
+  margin-top: 5%;
 }
 
 embed {

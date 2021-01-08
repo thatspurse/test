@@ -25,12 +25,12 @@ window.addEventListener("scroll", function () {
 ("use strict");
 
 const button = document.querySelector(".burger-btn");
-const button1 = document.querySelector(".burger-btn--1");
+const menu = document.querySelector(".menu");
 
 button.addEventListener("click", () => {
   button.classList.toggle("active");
-  button1.classList.toggle("width100");
-  button.classList.toggle("overlay-open");
+  button.classList.toggle("white");
+  menu.classList.toggle("menu-expanded");
 });
 
 // Look for .hamburger

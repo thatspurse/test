@@ -31,7 +31,8 @@ $logo-color: #00cec9;
   cursor: pointer;
   fill: #1e272e;
   padding-top: 5%;
-  padding-right: 2%;
+  padding-right: 4%;
+  float: right;
 
   &--1,
   &--2,
@@ -51,5 +52,30 @@ $logo-color: #00cec9;
     .burger-btn--3 {
       transform: translate(-7px, -7px) rotate(-45deg);
     }
+  }
+}
+
+.menu {
+  position: absolute;
+  float: right;
+  width: 100%;
+  left: 0px;
+}
+
+.menu-expanded {
+  transition: all 0.25s;
+  text-align: center;
+  line-height: 200px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  ul {
+    transition: all 0s;
+    position: relative;
+    left: 0;
+    z-index: 2;
   }
 }
