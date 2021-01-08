@@ -22,6 +22,17 @@ window.addEventListener("scroll", function () {
   }
 });
 
+("use strict");
+
+const button = document.querySelector(".burger-btn");
+const button1 = document.querySelector(".burger-btn--1");
+
+button.addEventListener("click", () => {
+  button.classList.toggle("active");
+  button1.classList.toggle("width100");
+  button.classList.toggle("overlay-open");
+});
+
 // Look for .hamburger
 var hamburger = document.querySelector(".hamburger");
 // On click
