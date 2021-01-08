@@ -43,7 +43,15 @@ h3 {
   text-align: center;
   font-weight: bolder;
   padding: 13%;
+  opacity: 0;
   letter-spacing: -1px;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
+}
+
+h3::before {
+  animation: 1s underline ease-in-out forwards 1s;
+  color: black;
+  mix-blend-mode: screen;
 }
 
 p {
