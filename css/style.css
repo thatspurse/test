@@ -47,13 +47,13 @@ ul {
 #navArea {
   display: flex;
   justify-content: space-between;
-  padding: 2% 2%;
+  padding: 4% 2%;
   position: fixed;
   width: 100%;
 
   width: 96%;
   transition: background 0.5s;
-  top: -1%;
+  top: -2%;
 }
 section {
   height: 500px;
