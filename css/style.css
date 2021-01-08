@@ -58,11 +58,27 @@ ul {
   padding: 4% 2%;
   position: fixed;
   width: 100%;
-
+  opacity: 0;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
   width: 96%;
   transition: background 0.5s;
   top: 0;
 }
+
+#navArea::before {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 2%;
+  position: fixed;
+  width: 100%;
+  animation: 1s underline ease-in-out forwards 1s;
+  color: black;
+  mix-blend-mode: screen;
+  width: 96%;
+  transition: background 0.5s;
+  top: 0;
+}
+
 section {
   height: 500px;
   padding: 200px 0;
