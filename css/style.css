@@ -342,6 +342,13 @@ https://flickity.metafizzy.co
   display: flex;
   align-items: center;
   justify-content: center;
+
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
+  opacity: 0;
+}
+
+.carousel-cell::before {
+  animation: 1s underline ease-in-out forwards 1s;
 }
 
 .is-selected {
@@ -552,7 +559,6 @@ https://flickity.metafizzy.co
 
 #navArea.is-sticky a {
   color: #fff;
-  opacity: 0;
 }
 
 #navArea.is-sticky .logo img {
