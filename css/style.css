@@ -164,6 +164,20 @@ h12 {
   letter-spacing: -1px;
 }
 
+h13 {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 0vh;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 100;
+  padding: 13%;
+  opacity: 0;
+  letter-spacing: -1px;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
+}
+
 embed {
   font-size: 150px;
   color: var(--primary-color);
