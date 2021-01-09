@@ -34,7 +34,7 @@ const menuop = document.getElementById("menu");
 button.addEventListener("click", () => {
   menu.classList.toggle("menu-expanded");
   button.classList.toggle("active");
-  body.classList.toggle("position-fixed");
+  body.classList.toggle("position-absolute");
   logo.classList.toggle("filter_white");
   menuop.classList.toggle("op1");
 });

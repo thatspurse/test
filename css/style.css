@@ -285,6 +285,9 @@ ul {
 .position-fixed {
   position: fixed;
 }
+.position-absolute {
+  position: absolute;
+}
 
 .burger {
   padding-right: 0px;
