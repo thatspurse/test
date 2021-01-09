@@ -261,7 +261,7 @@ ul {
 }
 
 .last {
-  height: 21vh;
+  height: 45vw;
   background-color: white;
 }
 
@@ -298,9 +298,11 @@ ul {
 
 .position-fixed {
   position: fixed;
+  overflow: hidden;
 }
 .position-absolute {
   position: absolute;
+  overflow: hidden;
 }
 
 .burger {
