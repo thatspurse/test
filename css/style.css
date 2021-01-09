@@ -305,6 +305,11 @@ ul {
   overflow: hidden;
 }
 
+.bg_white {
+  padding: 2%;
+  background: white;
+}
+
 .burger {
   padding-right: 0px;
 }

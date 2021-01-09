@@ -15,10 +15,11 @@ window.addEventListener("scroll", function () {
     navArea.classList.remove("white");
   }
 
-  if (window.pageYOffset > 10) {
-    navArea.classList.add("is-sticky");
+  if (window.pageYOffset > 2700) {
+    navArea.classList.add("bg_white");
+    document.getElementById("navArea").style.padding = "2%";
   } else {
-    navArea.classList.remove("is-sticky");
+    navArea.classList.remove("bg_white");
   }
 });
 
