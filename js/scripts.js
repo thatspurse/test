@@ -8,6 +8,7 @@ function sleep(milliseconds) {
 
 window.addEventListener("scroll", function () {
   let navArea = document.getElementById("navArea");
+  let burger = document.getElementById("burger");
 
   if (window.pageYOffset > 800) {
     navArea.classList.add("white");
@@ -17,9 +18,11 @@ window.addEventListener("scroll", function () {
 
   if (window.pageYOffset > 2700) {
     navArea.classList.add("bg_white");
-    document.getElementById("navArea").style.padding = "2%";
+    document.getElementById("navArea").style.paddingTop = "4%";
   } else {
     navArea.classList.remove("bg_white");
+    navArea.style.removeProperty("padding");
+    burger.style.removeProperty("padding");
   }
 });
 
