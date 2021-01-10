@@ -50,7 +50,7 @@ p {
 a {
   color: whitesmoke;
   font-family: "Montserrat";
-  font-size: 2em;
+  font-size: 2rem;
   letter-spacing: -2px;
   transition: all 1.4s;
   -webkit-transition: all 0.4s;
@@ -228,7 +228,7 @@ h15 {
   color: rgb(255 255 255 / 88%);
   font-family: "Montserrat", sans-serif;
   margin: auto;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 100;
   margin-bottom: 6%;
   opacity: 0;
