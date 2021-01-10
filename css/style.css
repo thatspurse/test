@@ -38,9 +38,9 @@
 p {
   font-family: "Montserrat-Medium";
   margin-top: 0.5vh;
-  font-size: 1.45rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
-  line-height: 1.5em;
+  line-height: 1.8em;
   letter-spacing: -1px;
 }
 
@@ -154,10 +154,10 @@ h8 {
 h9 {
   letter-spacing: -1px;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat-Medium", sans-serif;
   font-size: 2.3rem;
   text-align: initial;
-  font-weight: 600;
+
   left: 8%;
   right: 8%;
   line-height: 2.5rem;
@@ -593,7 +593,7 @@ https://flickity.metafizzy.co
 }
 
 #navArea.is-sticky .logo img {
-  height: 130px;
+  height: 6vh;
 }
 
 #navArea.burger {
