@@ -497,7 +497,7 @@ textarea.input100 {
   z-index: 1251;
   width: calc(100% + 2px);
   border: 0px solid transparent;
-  border-radius: 10px;
+
   overflow: hidden;
   background-color: white;
   left: -24px;
