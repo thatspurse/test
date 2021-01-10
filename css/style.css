@@ -593,7 +593,7 @@ https://flickity.metafizzy.co
 }
 
 #navArea.is-sticky .logo img {
-  height: 6vh;
+  max-height: 8vh;
 }
 
 #navArea.burger {
