@@ -212,15 +212,15 @@ h13 {
 }
 
 h14 {
-  color: rgb(255 255 255 / 88%);
+  color: rgb(255 255 255);
   font-family: "Montserrat", sans-serif;
   margin: auto;
   margin-top: 0vh;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   padding: 5%;
   opacity: 0;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   animation: 1.2s slideIn ease-in-out forwards 0.2s;
 }
 
@@ -228,7 +228,7 @@ h15 {
   color: rgb(255 255 255 / 88%);
   font-family: "Montserrat", sans-serif;
   margin: auto;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 100;
   margin-bottom: 6%;
   opacity: 0;
