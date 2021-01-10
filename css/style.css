@@ -37,10 +37,10 @@
 
 p {
   font-family: "Montserrat-Medium";
-  margin-top: 0.5vh;
-  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.5em;
   margin-bottom: 1rem;
-  line-height: 1.8em;
+  line-height: 1.2em;
   letter-spacing: -1px;
 }
 
