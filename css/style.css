@@ -36,20 +36,23 @@
 }
 
 p {
-  font-family: "Montserrat-Medium";
-  margin-top: 1.5rem;
-  font-size: 1.5em;
-  margin-bottom: 1rem;
-  line-height: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 6%;
+  opacity: 0;
   letter-spacing: -1px;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
 }
 
 a {
+  color: whitesmoke;
   font-family: "Montserrat";
-  color: white;
   font-size: 2em;
   letter-spacing: -2px;
-  transition: all 0.4s;
+  transition: all 1.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -200,13 +203,42 @@ h13 {
   font-family: "Montserrat", sans-serif;
   margin: auto;
   margin-top: 0vh;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 5rem;
   font-weight: 100;
-  padding: 13%;
+  padding: 5%;
   opacity: 0;
   letter-spacing: -1px;
   animation: 1.2s slideIn ease-in-out forwards 0.2s;
+}
+
+h14 {
+  color: rgb(255 255 255 / 88%);
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 0vh;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5%;
+  opacity: 0;
+  letter-spacing: -1px;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
+}
+
+h15 {
+  color: rgb(255 255 255 / 88%);
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 6%;
+  opacity: 0;
+  letter-spacing: -1px;
+  animation: 1.2s slideIn ease-in-out forwards 0.2s;
+  display: block;
+  line-height: 2rem;
+  padding: 5%;
+  margin-top: 2%;
+  padding-top: inherit;
 }
 
 embed {
