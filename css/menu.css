@@ -13,7 +13,9 @@ svg.burger-btn.active {
   padding: 5%;
   float: right;
 }
-.burger-btn--1, .burger-btn--2, .burger-btn--3 {
+.burger-btn--1,
+.burger-btn--2,
+.burger-btn--3 {
   transition: 0.5s;
   transform-origin: center center;
 }
@@ -67,7 +69,7 @@ svg.burger-btn.active {
   font-size: 4em;
   letter-spacing: -2px;
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat-Medium";
   line-height: 1.5em;
 }
 
