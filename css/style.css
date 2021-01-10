@@ -209,6 +209,7 @@ h13 {
   opacity: 0;
   letter-spacing: -1px;
   animation: 1.2s slideIn ease-in-out forwards 0.2s;
+  line-height: 1;
 }
 
 h14 {
@@ -220,7 +221,7 @@ h14 {
   font-weight: bold;
   padding: 5%;
   opacity: 0;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
   animation: 1.2s slideIn ease-in-out forwards 0.2s;
 }
 
