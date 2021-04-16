@@ -1,0 +1,57 @@
+.main-carousel {
+  outline: none;
+
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+  .main-carousel {
+    display: none;
+    outline: none;
+    height: 22vh;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .carousel-cell {
+    width: 60%; /* full width */
+    margin-right: 10px;
+    text-align: center;
+    height: 40vh;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    opacity: 1;
+  }
+}
+
+.carousel-cell {
+  width: 80%; /* full width */
+  height: 40vh;
+  margin-right: 10px;
+  text-align: center;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 1;
+}
+.flickity-viewport {
+  height: 45vh;
+}
+.flickity-button {
+  opacity: 0;
+}
+.blue-ocean {
+  padding-top: 2vh;
+  margin: auto;
+}
+.burger-stack {
+  padding-top: 2vh;
+  margin: auto;
+}
+.vissonic {
+  padding-top: 2vh;
+  margin: auto;
+}
+
+.flickity-page-dots {
+  opacity: 0;
+}

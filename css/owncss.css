@@ -1,0 +1,55 @@
+.hero_logo {
+  position: absolute;
+  max-width: 15%;
+}
+
+h11 {
+  font-size: medium;
+}
+
+h12 {
+  font-size: x-large;
+}
+
+p {
+  --wp-admin-theme-color: #ffffff;
+  --wp-admin-theme-color-darker-10: #006ba1;
+  --wp-admin-theme-color-darker-20: #005a87;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 80%;
+  min-height: 10vh;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 0;
+  line-height: 22px;
+  margin-top: 3px;
+  color: #777777;
+}
+
+a {
+  color: white;
+  -webkit-text-size-adjust: 100%;
+  --wp-admin-theme-color: #ffffff;
+  --wp-admin-theme-color-darker-10: #ffffff;
+  --wp-admin-theme-color-darker-20: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 22px;
+  box-sizing: border-box;
+  background-color: transparent;
+  background-attachment: scroll !important;
+  text-decoration: none;
+}
+
+#text {
+  font-size: 3px;
+}
+
+h10 {
+  font-size: 10px;
+}

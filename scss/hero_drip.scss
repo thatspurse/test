@@ -1,0 +1,253 @@
+/* Extra Small devices */
+@media screen and (max-width: 600px) {
+  .cont {
+    width: -webkit-fill-available;
+    height: 70vw;
+    position: relative;
+    overflow: hidden;
+    border-top: 15px solid #12141d;
+    border-bottom: 15px solid #12141d;
+
+    filter: url("#goo");
+
+    .drip {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #12141d;
+      position: absolute;
+      top: -100%;
+      animation: falling 5s linear infinite;
+    }
+
+    @keyframes falling {
+      0% {
+        top: -100%;
+      }
+      50% {
+        top: 0%;
+      }
+      80% {
+        top: 80%;
+      }
+
+      100% {
+        top: 100%;
+      }
+    }
+
+    @for $i from 1 through 20 {
+      .drip:nth-child(#{$i}) {
+        border-color: #12141d;
+        $size: random(50) + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        background: #12141d;
+        left: random(500) + px;
+      }
+    }
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 601px) {
+  .cont {
+    width: -webkit-fill-available;
+    height: 70vw;
+    position: relative;
+    overflow: hidden;
+    border-top: 15px solid #12141d;
+    border-bottom: 15px solid #12141d;
+
+    filter: url("#goo");
+
+    .drip {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #12141d;
+      position: absolute;
+      top: -100%;
+      animation: falling 6s linear infinite;
+    }
+
+    @keyframes falling {
+      0% {
+        top: -100%;
+      }
+      50% {
+        top: 0%;
+      }
+      90% {
+        top: 90%;
+      }
+
+      100% {
+        top: 100%;
+      }
+    }
+
+    @for $i from 1 through 20 {
+      .drip:nth-child(#{$i}) {
+        border-color: #12141d;
+        $size: random(60) + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        background: #12141d;
+        left: random(600) + px;
+      }
+    }
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .cont {
+    width: -webkit-fill-available;
+    height: 70vw;
+    position: relative;
+    overflow: hidden;
+    border-top: 15px solid #12141d;
+    border-bottom: 15px solid #12141d;
+
+    filter: url("#goo");
+
+    .drip {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #12141d;
+      position: absolute;
+      top: -100%;
+      animation: falling 7s linear infinite;
+    }
+
+    @keyframes falling {
+      0% {
+        top: -100%;
+      }
+      50% {
+        top: 0%;
+      }
+      90% {
+        top: 90%;
+      }
+
+      100% {
+        top: 100%;
+      }
+    }
+
+    @for $i from 1 through 40 {
+      .drip:nth-child(#{$i}) {
+        border-color: #12141d;
+        $size: random(70) + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        background: #12141d;
+        left: random(800) + px;
+      }
+    }
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .cont {
+    height: 60vw;
+    position: relative;
+    overflow: hidden;
+    border-top: 15px solid #12141d;
+    border-bottom: 15px solid #12141d;
+
+    filter: url("#goo");
+
+    .drip {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #12141d;
+      position: absolute;
+      top: -100%;
+      animation: falling 5s linear infinite;
+    }
+
+    @keyframes falling {
+      0% {
+        top: -100%;
+      }
+      50% {
+        top: 0%;
+      }
+      90% {
+        top: 90%;
+      }
+
+      100% {
+        top: 100%;
+      }
+    }
+
+    @for $i from 1 through 20 {
+      .drip:nth-child(#{$i}) {
+        border-color: #12141d;
+        $size: random(70) + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        background: #12141d;
+        left: random(1200) + px;
+      }
+    }
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .cont {
+    height: 33vw;
+    position: relative;
+    overflow: hidden;
+    border-top: 15px solid #12141d;
+    border-bottom: 15px solid #12141d;
+
+    filter: url("#goo");
+
+    .drip {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #12141d;
+      position: absolute;
+      top: -100%;
+      animation: falling 7s linear infinite;
+    }
+
+    @keyframes falling {
+      0% {
+        top: -100%;
+      }
+      50% {
+        top: 0%;
+      }
+      90% {
+        top: 90%;
+      }
+
+      100% {
+        top: 100%;
+      }
+    }
+
+    @for $i from 1 through 40 {
+      .drip:nth-child(#{$i}) {
+        border-color: #12141d;
+        $size: random(110) + px;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * 0.2s;
+        background: #12141d;
+        left: random(2000) + px;
+      }
+    }
+  }
+}
