@@ -4464,6 +4464,8 @@
 
   .sticky-nav.port_menu {
     overflow: visible;
+    width: 100%;
+    min-width: 99%;
     padding-top: 0px;
   }
 
