@@ -2737,7 +2737,7 @@ p {
 
 .centered-container {
   max-width: 70%;
-  margin-top: 200px;
+  margin-top: 50px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -5848,6 +5848,14 @@ p {
     height: 70px;
   }
 
+  .margin-0 {
+    color: #000;
+  }
+
+  .faq-answer {
+    color: #333;
+  }
+
   .heading-17 {
     padding-top: 0px;
   }
@@ -5951,6 +5959,10 @@ p {
   .background-video-9 {
     height: 30vh;
     background-color: transparent;
+  }
+
+  .paragraph-8 {
+    font-size: 1.2em;
   }
 }
 
