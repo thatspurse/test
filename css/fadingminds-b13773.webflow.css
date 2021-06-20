@@ -2867,6 +2867,7 @@ p {
 }
 
 .text-span-3 {
+  padding-left: 2px;
   font-family: Roboto, sans-serif;
   font-size: 1em;
   line-height: 1em;
@@ -2972,7 +2973,7 @@ p {
 .text-block-26 {
   margin-bottom: 0px;
   font-family: Montserrat, sans-serif;
-  color: #474747;
+  color: #1d1d1d;
   font-size: 0.7em;
   line-height: 1.2em;
   font-weight: 600;
@@ -3660,7 +3661,7 @@ p {
 }
 
 .c-nav-menu-overlay-3 {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -3678,6 +3679,8 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .c-nav-menu-btn-2 {
@@ -4002,6 +4005,10 @@ p {
   font-weight: 700;
 }
 
+.text-span-9.port._2 {
+  margin-left: 0px;
+}
+
 .heading-13 {
   width: 80%;
   margin-right: auto;
@@ -4173,7 +4180,7 @@ p {
 .faq-block {
   width: auto;
   margin-bottom: 10px;
-  padding: 20px 0px 0px;
+  padding: 0px;
   border-style: none;
   border-width: 1px;
   border-color: #161616;
@@ -5909,6 +5916,14 @@ p {
 
   .div-buton {
     height: 70px;
+  }
+
+  .text-span-9.port._2 {
+    margin-left: 0px;
+  }
+
+  .faq-block {
+    padding-top: 10px;
   }
 
   .margin-0 {
@@ -8221,6 +8236,10 @@ p {
 
   .faq-wrapper.margin-xl.faq-port {
     width: 90%;
+  }
+
+  .faq-block {
+    padding-top: 6px;
   }
 
   .faq-top {
