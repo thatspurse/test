@@ -8203,6 +8203,10 @@ p {
     width: 80%;
   }
 
+  .faq-wrapper.margin-xl.faq-port {
+    width: 90%;
+  }
+
   .faq-top {
     width: 100%;
     -webkit-box-align: start;
@@ -8233,7 +8237,7 @@ p {
   }
 
   .heading-17.port2 {
-    width: 80%;
+    width: 90%;
   }
 
   .section-17 {
@@ -8345,7 +8349,7 @@ p {
   }
 
   .paragraph-8 {
-    width: 80%;
+    width: 90%;
     margin-top: 18px;
   }
 
