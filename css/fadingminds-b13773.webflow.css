@@ -7968,8 +7968,9 @@ p {
   .image-15 {
     position: -webkit-sticky;
     position: sticky;
-    max-width: 6vh;
-    padding-left: 5px;
+    max-width: 5vh;
+    margin-left: 5px;
+    padding-left: 0px;
   }
 
   .container-6 {
