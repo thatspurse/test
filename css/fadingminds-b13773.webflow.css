@@ -497,6 +497,7 @@ p {
   overflow: hidden;
   width: 70%;
   max-width: 1200px;
+  margin-top: -300px;
 }
 
 ._w-col-menu-links-2 {
@@ -3668,7 +3669,7 @@ p {
   display: none;
   overflow: hidden;
   width: auto;
-  height: 100vh;
+  height: 150vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4453,6 +4454,26 @@ p {
   padding-top: 0px;
   font-family: Roboto, sans-serif;
   font-size: 1em;
+}
+
+.paragraph-9 {
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 150px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.text-span-10 {
+  display: block;
+  padding-bottom: 36px;
+  font-family: Montserrat, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6153,6 +6174,10 @@ p {
     font-size: 3em;
   }
 
+  .menu.burger {
+    width: 20%;
+  }
+
   .call-to-action-heading {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -6409,6 +6434,7 @@ p {
     z-index: 3;
     display: block;
     width: 85%;
+    margin-top: -300px;
   }
 
   .menu-item-text {
@@ -6446,8 +6472,9 @@ p {
   }
 
   .menu.burger {
+    width: 70%;
     height: 100%;
-    margin-right: -15px;
+    margin-right: 6px;
   }
 
   .nav-menu-btn-line.short {
@@ -7895,7 +7922,7 @@ p {
   .image-15 {
     position: -webkit-sticky;
     position: sticky;
-    max-width: 6vh;
+    max-width: 5vh;
     padding-left: 5px;
   }
 
@@ -7957,7 +7984,7 @@ p {
     position: fixed;
     z-index: 0;
     display: none;
-    height: 100vh;
+    height: 150vh;
   }
 
   .div-text {
