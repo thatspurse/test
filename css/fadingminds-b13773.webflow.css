@@ -143,7 +143,7 @@ p {
   display: flex;
   overflow: visible;
   margin-top: 0px;
-  background-color: rgba(0, 0, 0, 0.74);
+  background-color: #000;
   -webkit-filter: none;
   filter: none;
 }
@@ -714,7 +714,7 @@ p {
   height: 60%;
   padding-top: 5px;
   font-family: Lato, sans-serif;
-  font-size: 3em;
+  font-size: 3.2em;
   line-height: 1.1em;
   font-weight: 300;
 }
@@ -727,7 +727,7 @@ p {
   font-family: Lato, sans-serif;
   font-size: 3.6em;
   line-height: 1.4em;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
   text-decoration: none;
   text-transform: none;
@@ -927,8 +927,6 @@ p {
   height: 100%;
   max-height: 50px;
   max-width: 50px;
-  margin-top: auto;
-  margin-bottom: auto;
   text-decoration: none;
 }
 
@@ -1258,8 +1256,6 @@ p {
 }
 
 .bold-text {
-  color: #1f1f1f;
-  font-size: 1.2em;
   font-weight: 400;
 }
 
@@ -1276,7 +1272,6 @@ p {
 }
 
 .subtitlu-sectiune.home1 {
-  margin-bottom: 5px;
   color: #000;
 }
 
@@ -2388,7 +2383,7 @@ p {
   right: auto;
   bottom: 30px;
   z-index: 9998;
-  display: block;
+  display: none;
   width: 56%;
   padding: 25px;
   border-radius: 10px;
@@ -2742,7 +2737,7 @@ p {
 
 .centered-container {
   max-width: 70%;
-  margin-top: 50px;
+  margin-top: 200px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -3664,7 +3659,7 @@ p {
 }
 
 .c-nav-menu-overlay-3 {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -3673,8 +3668,7 @@ p {
   display: none;
   overflow: hidden;
   width: auto;
-  height: 120vh;
-  margin-top: 0px;
+  height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3683,7 +3677,6 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #000;
 }
 
 .c-nav-menu-btn-2 {
@@ -3832,7 +3825,7 @@ p {
   display: block;
   width: 80%;
   height: auto;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 0px;
@@ -3963,9 +3956,8 @@ p {
 }
 
 .section-13 {
-  height: auto;
   margin-top: 0px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .bold-text-5 {
@@ -3981,7 +3973,6 @@ p {
 
 .heading-12 {
   width: 80%;
-  margin-top: 130px;
   margin-right: auto;
   margin-left: auto;
   font-family: Montserrat, sans-serif;
@@ -3995,7 +3986,6 @@ p {
 }
 
 .text-span-9 {
-  position: absolute;
   font-weight: 400;
 }
 
@@ -4177,7 +4167,7 @@ p {
 .faq-block {
   width: auto;
   margin-bottom: 10px;
-  padding: 0px;
+  padding: 20px 0px 0px;
   border-style: none;
   border-width: 1px;
   border-color: #161616;
@@ -4235,7 +4225,7 @@ p {
 }
 
 .faq-answer {
-  margin-top: 10px;
+  margin-top: 24px;
   margin-left: 0px;
   font-family: Roboto, sans-serif;
   color: #333;
@@ -4254,7 +4244,6 @@ p {
 .heading-17 {
   width: 70%;
   margin: 200px auto 0px;
-  padding-right: 50px;
   padding-bottom: 0px;
   padding-left: 0px;
   font-family: Montserrat, sans-serif;
@@ -4265,7 +4254,6 @@ p {
 }
 
 .heading-17.home {
-  display: block;
   width: 100%;
   margin-top: -5px;
   margin-bottom: 45px;
@@ -4273,14 +4261,7 @@ p {
   text-align: left;
 }
 
-.heading-17.home.nav {
-  position: absolute;
-  z-index: 10;
-  display: none;
-}
-
 .heading-17.port2 {
-  position: relative;
   width: 70%;
   margin-top: -10px;
   color: #000;
@@ -4465,57 +4446,13 @@ p {
 }
 
 .paragraph-8 {
-  position: static;
   width: 70%;
-  margin: 49px auto 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
   padding-top: 0px;
   font-family: Roboto, sans-serif;
   font-size: 1em;
-}
-
-.italic-text {
-  font-style: normal;
-}
-
-.italic-text-2 {
-  font-style: normal;
-}
-
-.paragraph-9 {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Lato, sans-serif;
-  color: #fcfcfc;
-}
-
-.heading-22 {
-  width: 80%;
-  margin: 60px auto -5px;
-  padding-bottom: 0px;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 1em;
-}
-
-.paragraph-10 {
-  width: 80%;
-  margin-top: 221px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Lato, sans-serif;
-  color: #fff;
-  font-size: 1.1em;
-  line-height: 2em;
-}
-
-.text-span-10 {
-  display: block;
-  height: 15%;
-  padding-bottom: 7px;
-  font-family: Montserrat, sans-serif;
-  font-size: 2.5em;
-  font-weight: 500;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4837,7 +4774,7 @@ p {
   }
 
   .despre-introo {
-    height: auto;
+    height: 400px;
   }
 
   .div-buton {
@@ -5161,7 +5098,7 @@ p {
     width: 100%;
     min-width: 99%;
     padding-top: 0px;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: #000;
   }
 
   .background-video-5 {
@@ -5273,7 +5210,6 @@ p {
 
   .expertise_txt.home1 {
     width: 70%;
-    margin-top: 10px;
     font-size: 4em;
     line-height: 1.4em;
   }
@@ -5393,7 +5329,7 @@ p {
   .expertise_title.home1.white {
     font-family: Lato, sans-serif;
     color: #9f9f9f;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 400;
   }
 
@@ -5448,7 +5384,7 @@ p {
   }
 
   .despre-text.home2 {
-    width: 89%;
+    width: 100%;
     height: 170px;
     padding-top: 40px;
     color: #000;
@@ -5496,10 +5432,7 @@ p {
   }
 
   .bold-text {
-    width: auto;
-    font-size: 1.2em;
-    line-height: 64px;
-    font-weight: 300;
+    font-size: 1.3em;
   }
 
   .subtitlu-sectiune.home1 {
@@ -5915,14 +5848,6 @@ p {
     height: 70px;
   }
 
-  .margin-0 {
-    color: #212121;
-  }
-
-  .faq-answer {
-    color: #333;
-  }
-
   .heading-17 {
     padding-top: 0px;
   }
@@ -6026,10 +5951,6 @@ p {
   .background-video-9 {
     height: 30vh;
     background-color: transparent;
-  }
-
-  .paragraph-8 {
-    font-size: 1.2em;
   }
 }
 
@@ -6390,7 +6311,7 @@ p {
     overflow: visible;
     height: 10vh;
     padding-top: 0px;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: #000;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -6476,7 +6397,6 @@ p {
     z-index: 3;
     display: block;
     width: 85%;
-    margin-top: 0px;
   }
 
   .menu-item-text {
@@ -6582,30 +6502,23 @@ p {
   }
 
   .expertise_txt.home {
-    width: 85%;
+    width: 100%;
     height: 100px;
     min-width: auto;
     padding-top: 0px;
     font-family: Lato, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 1.4em;
     font-weight: 400;
   }
 
   .expertise_txt.home1 {
-    width: 90%;
+    width: 100%;
     min-width: auto;
-    padding-top: 5px;
-    font-family: Lato, sans-serif;
-    font-size: 1.6em;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2em;
     line-height: 1.4em;
-    font-weight: 400;
     text-decoration: none;
-  }
-
-  .cerc-sageata {
-    max-height: 30px;
-    max-width: 30px;
   }
 
   .contact_txt {
@@ -6644,13 +6557,8 @@ p {
   }
 
   .magnetic-buton {
-    width: 40px;
-    margin-top: 13px;
+    width: 61px;
     padding-right: 0px;
-  }
-
-  .image-6 {
-    max-width: 14px;
   }
 
   .digital_service_agency {
@@ -6668,7 +6576,7 @@ p {
     width: 209px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    padding-left: 1px;
+    padding-left: 0px;
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
@@ -6692,7 +6600,7 @@ p {
   .text.buton {
     margin-left: 0px;
     padding-bottom: 10px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: Lato, sans-serif;
     font-size: 1em;
     font-weight: 400;
   }
@@ -6725,7 +6633,7 @@ p {
 
   .link-buton {
     max-height: 100%;
-    max-width: 100%;
+    max-width: 190%;
   }
 
   .div-block-228 {
@@ -6821,7 +6729,8 @@ p {
   }
 
   .section-5 {
-    height: 40vh;
+    height: auto;
+    padding-bottom: 60px;
   }
 
   .aboutagency_section {
@@ -6958,7 +6867,7 @@ p {
     position: relative;
     z-index: 1;
     width: 102%;
-    font-size: 0.7em;
+    font-size: 0.8em;
     line-height: 1em;
     font-weight: 400;
     text-align: left;
@@ -7063,7 +6972,7 @@ p {
   .section-7 {
     z-index: 0;
     width: 100vw;
-    height: 120vh;
+    height: 160vh;
     margin-top: -70px;
     padding-right: 0vw;
     padding-left: 0vw;
@@ -7075,7 +6984,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 120vh;
+    height: 170vh;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7128,7 +7037,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100vh;
+    height: auto;
     margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7567,7 +7476,7 @@ p {
     left: 20px;
     right: 0px;
     bottom: 20px;
-    display: block;
+    display: none;
     width: 88%;
     max-width: none;
     padding-bottom: 0px;
@@ -8036,8 +7945,7 @@ p {
     position: fixed;
     z-index: 0;
     display: none;
-    height: 120vh;
-    margin-top: -70px;
+    height: 100vh;
   }
 
   .div-text {
@@ -8089,10 +7997,6 @@ p {
   }
 
   .text-block-28._2.contact_txt {
-    text-align: center;
-  }
-
-  .text-block-28._2.cntct {
     text-align: center;
   }
 
@@ -8150,8 +8054,7 @@ p {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 80px;
     padding-left: 0px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -8172,11 +8075,9 @@ p {
 
   .heading-12 {
     font-size: 1.2em;
-    text-align: left;
   }
 
   .text-span-9.port._2 {
-    margin-left: 0px;
     font-size: 1.5em;
   }
 
@@ -8228,14 +8129,6 @@ p {
     width: 80%;
   }
 
-  .faq-wrapper.margin-xl.faq-port {
-    width: 90%;
-  }
-
-  .faq-block {
-    width: 100%;
-  }
-
   .faq-top {
     width: 100%;
     -webkit-box-align: start;
@@ -8266,15 +8159,7 @@ p {
   }
 
   .heading-17.port2 {
-    width: 90%;
-    margin-top: -18px;
-    padding-left: 0px;
-    font-size: 1.5em;
-  }
-
-  .heading-17.port2.fm {
-    padding-left: 2px;
-    font-size: 1em;
+    width: 80%;
   }
 
   .section-17 {
@@ -8378,7 +8263,7 @@ p {
     margin-top: 10px;
     font-family: Lato, sans-serif;
     font-size: 1em;
-    line-height: 20px;
+    line-height: 1.2em;
   }
 
   .heading-21 {
@@ -8386,23 +8271,8 @@ p {
   }
 
   .paragraph-8 {
-    width: 90%;
-    margin-top: 50px;
-  }
-
-  .heading-22 {
-    padding-bottom: 10px;
-    font-size: 1.2em;
-    line-height: 27px;
-  }
-
-  .bold-text-7 {
-    font-size: 1.2em;
-    line-height: 1em;
-  }
-
-  .text-span-10 {
-    display: block;
+    width: 80%;
+    margin-top: 18px;
   }
 }
 
