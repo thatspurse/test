@@ -3957,8 +3957,12 @@ p {
 }
 
 .section-13 {
+  width: 80%;
   margin-top: 0px;
-  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  color: #dedede;
 }
 
 .bold-text-5 {
@@ -3974,6 +3978,7 @@ p {
 
 .heading-12 {
   width: 80%;
+  margin-top: 160px;
   margin-right: auto;
   margin-left: auto;
   font-family: Montserrat, sans-serif;
@@ -4474,6 +4479,34 @@ p {
   font-family: Montserrat, sans-serif;
   font-size: 4em;
   font-weight: 600;
+}
+
+.heading-22 {
+  display: inline;
+  font-family: Montserrat, sans-serif;
+  font-size: 2em;
+}
+
+.bold-text-7 {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.7em;
+}
+
+.bold-text-8 {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.7em;
+}
+
+.paragraph-10 {
+  font-family: Lato, sans-serif;
+}
+
+.paragraph-11 {
+  font-family: Lato, sans-serif;
+}
+
+.paragraph-12 {
+  font-family: Lato, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6832,7 +6865,7 @@ p {
   .despre-text {
     display: block;
     width: 80%;
-    height: 40px;
+    height: 30px;
     min-width: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -8093,7 +8126,8 @@ p {
     position: relative;
     width: 100%;
     height: auto;
-    padding-top: 80px;
+    margin-top: -10px;
+    padding-top: 0px;
     padding-left: 0px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -8113,6 +8147,7 @@ p {
   }
 
   .heading-12 {
+    margin-bottom: 0px;
     font-size: 1.2em;
   }
 
@@ -8258,7 +8293,7 @@ p {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    font-size: 2em;
+    font-size: 1.6em;
     line-height: 30px;
     text-align: center;
   }
@@ -8312,6 +8347,28 @@ p {
   .paragraph-8 {
     width: 80%;
     margin-top: 18px;
+  }
+
+  .bold-text-8 {
+    font-size: 0.7em;
+  }
+
+  .paragraph-10 {
+    margin-bottom: 40px;
+  }
+
+  .paragraph-11 {
+    margin-bottom: 40px;
+  }
+
+  .heading-23 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .heading-24 {
+    font-size: 2em;
+    line-height: 1em;
   }
 }
 
