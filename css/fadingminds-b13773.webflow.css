@@ -4214,7 +4214,7 @@ p {
 
 .margin-0.srvc {
   color: #fff;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 .faq-arrow {
@@ -4252,6 +4252,7 @@ p {
 
 .faq-answer.srvc {
   color: #a0a0a0;
+  font-size: 14px;
 }
 
 .heading-17 {
@@ -4348,8 +4349,8 @@ p {
 
 .button-7._8 {
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
   text-align: center;
 }
 
@@ -4413,7 +4414,7 @@ p {
   margin: 20px auto 30px;
   font-family: Lato, sans-serif;
   color: #bcbcbc;
-  font-size: 1.1em;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -4443,7 +4444,7 @@ p {
   padding-bottom: 0px;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 1em;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -5258,20 +5259,20 @@ p {
   .expertise_txt.home1-copy {
     position: static;
     width: auto;
-    font-size: 6em;
+    font-size: 70px;
   }
 
   .expertise_txt.home {
     width: 50%;
     height: 170px;
     margin-top: 10px;
-    font-size: 4em;
+    font-size: 60px;
     line-height: 54px;
   }
 
   .expertise_txt.home1 {
     width: 70%;
-    font-size: 4em;
+    font-size: 60px;
     line-height: 1.4em;
   }
 
@@ -5309,9 +5310,9 @@ p {
   .digital_service_agency.home1.white {
     margin-top: 0px;
     margin-bottom: 10px;
-    padding-left: 1px;
+    padding-left: 0px;
     font-family: Montserrat, sans-serif;
-    font-size: 1.6em;
+    font-size: 14px;
   }
 
   .imagine-alba {
@@ -5320,7 +5321,7 @@ p {
   }
 
   .text.buton {
-    font-size: 1.2em;
+    font-size: 22px;
     text-decoration: none;
   }
 
@@ -5356,6 +5357,10 @@ p {
     align-items: flex-end;
   }
 
+  .section-3 {
+    height: auto;
+  }
+
   .container_2 {
     position: relative;
     display: block;
@@ -5379,6 +5384,10 @@ p {
     align-items: flex-start;
   }
 
+  .expertise_title.home {
+    font-size: 16px;
+  }
+
   .expertise_title.home._2 {
     font-size: 1em;
   }
@@ -5390,7 +5399,7 @@ p {
   .expertise_title.home1.white {
     font-family: Lato, sans-serif;
     color: #9f9f9f;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 400;
   }
 
@@ -5422,9 +5431,11 @@ p {
   }
 
   .aboutagency_section.home1 {
-    height: 50vh;
+    height: auto;
     margin-right: 0px;
     margin-left: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-size: auto, contain;
   }
 
@@ -5443,6 +5454,7 @@ p {
     align-self: auto;
     font-size: 75px;
     line-height: 90px;
+    text-align: left;
   }
 
   .despre-text.home2 {
@@ -5494,11 +5506,17 @@ p {
   }
 
   .bold-text {
-    font-size: 1.3em;
+    font-size: 55px;
   }
 
   .subtitlu-sectiune.home1 {
     color: #000;
+    font-size: 16px;
+  }
+
+  .subtitlu-sectiune.home4 {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
   }
 
   .industryrec_section {
@@ -5559,8 +5577,12 @@ p {
     max-width: none;
   }
 
+  .text-block-9 {
+    font-size: 16px;
+  }
+
   .text-block-8 {
-    font-size: 1em;
+    font-size: 20px;
   }
 
   .div-block-233 {
@@ -5569,8 +5591,17 @@ p {
     margin-top: -30px;
   }
 
+  .text-block-10 {
+    font-size: 30px;
+  }
+
   .articol-3 {
     font-size: 1.2em;
+  }
+
+  .text-block-7 {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 12px;
   }
 
   .section-8.thin-section {
@@ -5806,7 +5837,8 @@ p {
 
   .field-label {
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 20px;
+    line-height: 22px;
   }
 
   .large-heading {
@@ -5840,7 +5872,7 @@ p {
 
   .lf-checkbox-label {
     padding-bottom: 0px;
-    font-size: 1.1em;
+    font-size: 16px;
   }
 
   .text-field-wrapper {
@@ -5861,20 +5893,24 @@ p {
     clear: none;
   }
 
+  .body-home {
+    overflow: hidden;
+  }
+
   .heading-10 {
-    font-size: 2.7em;
+    font-size: 40px;
     line-height: 1.7em;
   }
 
   .paragraph-3 {
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1.4em;
   }
 
   .paragraph-4 {
     margin-top: 0px;
     margin-bottom: 50px;
-    font-size: 1.2em;
+    font-size: 16px;
     line-height: 1.4em;
   }
 
@@ -5914,12 +5950,31 @@ p {
     width: 100vw;
   }
 
+  .despre-introo {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
   .div-buton {
     height: 70px;
   }
 
+  .section-13 {
+    padding-top: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .heading-12 {
+    text-align: left;
+  }
+
   .text-span-9.port._2 {
-    margin-left: 0px;
+    margin-left: -2px;
+  }
+
+  .section-16 {
+    overflow: hidden;
   }
 
   .faq-block {
@@ -5928,10 +5983,18 @@ p {
 
   .margin-0 {
     color: #000;
+    font-size: 20px;
   }
 
   .faq-answer {
     color: #333;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .faq-answer.port {
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .heading-17 {
@@ -5939,7 +6002,11 @@ p {
   }
 
   .heading-17.home {
-    font-size: 4em;
+    font-size: 40px;
+  }
+
+  .heading-17.port2 {
+    font-size: 24px;
   }
 
   .section-17 {
@@ -5954,10 +6021,22 @@ p {
     font-size: 1.4em;
   }
 
+  .heading-18 {
+    font-size: 60px;
+  }
+
   .button-7 {
     width: 95%;
     margin-left: 0px;
+    font-size: 20px;
     text-align: center;
+  }
+
+  .button-7._8 {
+    max-width: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
   }
 
   .columns-6 {
@@ -6041,6 +6120,54 @@ p {
 
   .paragraph-8 {
     font-size: 1.2em;
+  }
+
+  .bold-text-7 {
+    font-size: 40px;
+  }
+
+  .bold-text-8 {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .paragraph-10 {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .paragraph-11 {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .paragraph-12 {
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .heading-23 {
+    font-size: 60px;
+    text-align: left;
+  }
+
+  .heading-24 {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .italic-text {
+    font-style: normal;
+  }
+
+  .italic-text-2 {
+    font-style: normal;
   }
 }
 
@@ -6980,6 +7107,7 @@ p {
 
   .subtitlu-sectiune.home1 {
     width: 100%;
+    padding-bottom: 0px;
     font-family: Lato, sans-serif;
     text-align: left;
   }
@@ -7126,6 +7254,10 @@ p {
     margin-left: 0px;
   }
 
+  .text-block-9 {
+    letter-spacing: 1px;
+  }
+
   .dreapta {
     position: relative;
     z-index: 0;
@@ -7169,7 +7301,10 @@ p {
 
   .text-block-8 {
     width: 100%;
+    font-family: Roboto, sans-serif;
+    color: #d7d7d7;
     font-size: 1em;
+    font-weight: 300;
   }
 
   .div-block-233 {
@@ -7691,7 +7826,7 @@ p {
   }
 
   .cards-section {
-    padding-top: 80px;
+    padding-top: 90px;
   }
 
   .centered-container {
@@ -8146,7 +8281,7 @@ p {
   }
 
   .sectiune-cheie.privacy {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .text-span-5 {
@@ -8184,6 +8319,7 @@ p {
   }
 
   .text-span-9.port._2 {
+    margin-left: -1px;
     font-size: 1.5em;
   }
 
