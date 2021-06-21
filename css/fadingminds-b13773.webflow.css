@@ -7691,7 +7691,7 @@ p {
   }
 
   .cards-section {
-    padding-top: 150px;
+    padding-top: 40px;
   }
 
   .centered-container {
@@ -8178,6 +8178,7 @@ p {
   }
 
   .heading-12 {
+    margin-top: 100px;
     margin-bottom: 0px;
     font-size: 1.2em;
   }
@@ -8228,6 +8229,7 @@ p {
 
   .section-16 {
     height: auto;
+    margin-top: -20px;
   }
 
   .faq-wrapper.margin-xl {
