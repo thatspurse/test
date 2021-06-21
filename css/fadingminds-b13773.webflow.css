@@ -497,7 +497,7 @@ p {
   overflow: hidden;
   width: 70%;
   max-width: 1200px;
-  margin-top: -300px;
+  margin-top: 0px;
 }
 
 ._w-col-menu-links-2 {
@@ -6665,7 +6665,7 @@ p {
     z-index: 3;
     display: block;
     width: 85%;
-    margin-top: -300px;
+    margin-top: 0px;
   }
 
   .menu-item-text {
@@ -8222,6 +8222,7 @@ p {
     height: auto;
     max-height: none;
     min-height: auto;
+    margin-top: 0px;
     -o-object-fit: contain;
     object-fit: contain;
   }
