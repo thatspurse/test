@@ -858,7 +858,7 @@ p {
   margin-top: 30px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-left: 1px;
+  padding-left: 0px;
   font-family: Lato, sans-serif;
   color: #7f7f7f;
   font-size: 0.6em;
@@ -4007,7 +4007,7 @@ p {
 }
 
 .text-span-9.port._2 {
-  margin-left: 0px;
+  margin-left: -2px;
 }
 
 .heading-13 {
@@ -4518,6 +4518,14 @@ p {
   font-family: Lato, sans-serif;
 }
 
+.italic-text {
+  font-style: normal;
+}
+
+.italic-text-2 {
+  font-style: normal;
+}
+
 @media screen and (min-width: 1280px) {
   .expertise_txt {
     height: 80px;
@@ -4892,6 +4900,12 @@ p {
     align-items: flex-end;
   }
 
+  .div-block-227 {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .expertise_title {
     position: static;
   }
@@ -4900,8 +4914,22 @@ p {
     color: #000;
   }
 
+  .expertise_title.home1.white {
+    font-size: 11px;
+    font-weight: 400;
+  }
+
   .cta_txt {
     padding-left: 0%;
+  }
+
+  .cta_txt.home {
+    height: auto;
+  }
+
+  .section-5 {
+    height: auto;
+    min-height: auto;
   }
 
   .aboutagency_section {
@@ -4920,7 +4948,7 @@ p {
   }
 
   .despre-text.home2 {
-    width: 470px;
+    width: 80%;
     height: 170px;
     font-size: 42px;
     line-height: 54px;
@@ -4941,6 +4969,10 @@ p {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .bold-text {
+    width: 98.7820304708278%;
   }
 
   .subtitlu-sectiune {
@@ -4971,6 +5003,8 @@ p {
 
   .background-video-7 {
     height: 100%;
+    margin-top: -45px;
+    padding-bottom: 0px;
   }
 
   .section-6 {
@@ -4980,7 +5014,8 @@ p {
 
   .section-6.home-3 {
     height: 100%;
-    background-color: #211f28;
+    margin-top: 158px;
+    background-color: transparent;
   }
 
   .div-block-205.home {
@@ -5018,7 +5053,7 @@ p {
     height: 100%;
     max-width: 1030px;
     min-height: 50vh;
-    margin-right: 0px;
+    margin-right: auto;
     padding-left: 0vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5044,6 +5079,11 @@ p {
 
   .grid-2 {
     display: none;
+  }
+
+  .container-4 {
+    height: 50vh;
+    max-width: none;
   }
 
   .c-nav-menu-overlay-2 {
@@ -5901,7 +5941,7 @@ p {
   }
 
   .body-home {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .heading-10 {
@@ -6806,7 +6846,7 @@ p {
     width: 209px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 2px;
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
@@ -8389,6 +8429,7 @@ p {
 
   .faq-top {
     width: 100%;
+    margin-top: 20px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -8427,6 +8468,12 @@ p {
 
   .heading-17.port2 {
     width: 90%;
+    font-size: 1.6em;
+  }
+
+  .heading-17.port2.fm {
+    margin-bottom: -20px;
+    font-size: 1.2em;
   }
 
   .section-17 {
