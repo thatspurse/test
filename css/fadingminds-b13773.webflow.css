@@ -290,6 +290,7 @@ p {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  font-size: 18px;
 }
 
 .nav-social-contact-item-link-text {
@@ -5246,6 +5247,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 100px;
     padding-bottom: 200px;
   }
 
@@ -5476,7 +5478,7 @@ p {
     bottom: 0%;
     z-index: 10;
     height: 10vh;
-    margin-top: -20px;
+    margin-top: -30px;
     font-family: Lato, sans-serif;
   }
 
@@ -5682,9 +5684,9 @@ p {
   }
 
   .section-8.thin-section {
-    margin-top: 0px;
+    margin-top: -20px;
     margin-bottom: 80px;
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .section-9 {
@@ -5741,7 +5743,7 @@ p {
   }
 
   .container-4 {
-    height: 40vh;
+    height: 35vh;
     padding-bottom: 400px;
   }
 
@@ -5981,7 +5983,7 @@ p {
   }
 
   .heading-10 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.7em;
   }
 
@@ -5990,10 +5992,14 @@ p {
     line-height: 1.4em;
   }
 
+  .div-block-236 {
+    padding-top: 100px;
+  }
+
   .paragraph-4 {
     margin-top: 0px;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.4em;
   }
 
@@ -6013,7 +6019,7 @@ p {
   }
 
   .image-15 {
-    max-width: 80%;
+    max-width: 70%;
   }
 
   .c-nav-menu-overlay-bg-3 {
@@ -6070,18 +6076,28 @@ p {
 
   .margin-0 {
     color: #000;
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .margin-0.srvc {
+    font-size: 24px;
+    line-height: 26px;
   }
 
   .faq-answer {
     color: #333;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
   }
 
   .faq-answer.port {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
+  }
+
+  .faq-answer.srvc {
+    font-size: 20px;
   }
 
   .heading-17 {
@@ -6205,8 +6221,20 @@ p {
     background-color: transparent;
   }
 
+  .paragraph-7 {
+    width: 70%;
+    max-width: none;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .heading-21 {
+    font-size: 24px;
+  }
+
   .paragraph-8 {
-    font-size: 1.2em;
+    font-size: 22px;
+    line-height: 26px;
   }
 
   .bold-text-7 {
@@ -6220,7 +6248,7 @@ p {
 
   .paragraph-10 {
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     text-align: left;
   }
@@ -8273,7 +8301,7 @@ p {
     position: fixed;
     z-index: 0;
     display: none;
-    height: 150vh;
+    height: 120vh;
     padding-bottom: 50px;
   }
 
