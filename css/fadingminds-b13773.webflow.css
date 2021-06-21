@@ -5322,15 +5322,15 @@ p {
 
   .expertise_txt.home {
     width: 50%;
-    height: 170px;
+    height: 150px;
     margin-top: 10px;
     font-size: 60px;
     line-height: 54px;
   }
 
   .expertise_txt.home1 {
-    width: 70%;
-    font-size: 55px;
+    width: 90%;
+    font-size: 70px;
     line-height: 1.4em;
   }
 
@@ -5387,7 +5387,7 @@ p {
     position: relative;
     top: auto;
     bottom: 200px;
-    margin-top: -469px;
+    margin-top: -550px;
     font-size: 10px;
   }
 
@@ -5443,6 +5443,7 @@ p {
   }
 
   .expertise_title.home {
+    padding-top: 70px;
     font-size: 16px;
   }
 
@@ -5489,12 +5490,14 @@ p {
   }
 
   .aboutagency_section.home1 {
-    height: auto;
+    height: 60vw;
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 100px;
     padding-bottom: 100px;
     background-size: auto, contain;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .div-block-229 {
@@ -5628,10 +5631,10 @@ p {
   }
 
   .container-3.blog {
-    width: 90%;
+    width: 95%;
     height: 90vh;
     min-height: 40vh;
-    margin: 150px auto 50px;
+    margin: 150px auto 0px;
     padding-left: 0vw;
   }
 
@@ -5669,6 +5672,7 @@ p {
   .section-8.thin-section {
     margin-top: 0px;
     margin-bottom: 80px;
+    padding-top: 20px;
   }
 
   .section-9 {
@@ -5721,6 +5725,7 @@ p {
   }
 
   .container-4 {
+    height: 45vh;
     padding-bottom: 400px;
   }
 
