@@ -3725,7 +3725,7 @@ p {
   padding-top: 0px;
   font-family: Roboto, sans-serif;
   color: #fff;
-  font-size: 1rem;
+  font-size: 20px;
   line-height: 1.8rem;
   font-weight: 300;
   letter-spacing: 0px;
@@ -5476,6 +5476,7 @@ p {
     bottom: 0%;
     z-index: 10;
     height: 10vh;
+    margin-top: -20px;
     font-family: Lato, sans-serif;
   }
 
@@ -5490,14 +5491,23 @@ p {
   }
 
   .aboutagency_section.home1 {
-    height: 60vw;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 57vw;
+    max-height: 55vh;
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-size: auto, contain;
-    -o-object-fit: cover;
-    object-fit: cover;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.91))), url('../images/DSC_3633_mdf1Webres3-scaled-1.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url('../images/DSC_3633_mdf1Webres3-scaled-1.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    -o-object-fit: contain;
+    object-fit: contain;
   }
 
   .div-block-229 {
@@ -5627,7 +5637,9 @@ p {
 
   .section-7 {
     height: auto;
-    padding-bottom: 20px;
+    margin-top: -100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .container-3.blog {
@@ -5715,6 +5727,10 @@ p {
     background-color: #000;
   }
 
+  .link {
+    font-size: 0.8em;
+  }
+
   .list {
     font-size: 20px;
   }
@@ -5725,7 +5741,7 @@ p {
   }
 
   .container-4 {
-    height: 45vh;
+    height: 40vh;
     padding-bottom: 400px;
   }
 
@@ -5904,7 +5920,7 @@ p {
 
   .field-label {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 22px;
   }
 
@@ -5928,7 +5944,7 @@ p {
   }
 
   .bold-text-2 {
-    font-size: 1.1em;
+    font-size: 24px;
     line-height: 1.5em;
   }
 
@@ -5939,7 +5955,7 @@ p {
 
   .lf-checkbox-label {
     padding-bottom: 0px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .text-field-wrapper {
@@ -6689,7 +6705,9 @@ p {
     z-index: 3;
     display: block;
     width: 85%;
+    max-width: none;
     margin-top: 0px;
+    padding-bottom: 0px;
   }
 
   .menu-item-text {
@@ -8256,6 +8274,7 @@ p {
     z-index: 0;
     display: none;
     height: 150vh;
+    padding-bottom: 50px;
   }
 
   .div-text {
