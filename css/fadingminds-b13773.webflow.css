@@ -488,7 +488,7 @@ p {
 }
 
 .c-nav-menu-content {
-  position: relative;
+  position: fixed;
   z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -498,6 +498,7 @@ p {
   width: 70%;
   max-width: 1200px;
   margin-top: 0px;
+  padding-bottom: 250px;
 }
 
 ._w-col-menu-links-2 {
@@ -3638,12 +3639,12 @@ p {
 
 .c-nav-menu-overlay-bg-3 {
   position: absolute;
-  left: auto;
-  top: 0px;
-  right: 2.5%;
-  bottom: auto;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: 100vw;
   height: auto;
   margin-top: -40px;
@@ -4856,7 +4857,7 @@ p {
 
 @media screen and (min-width: 1440px) {
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .expertise_txt {
@@ -5195,6 +5196,10 @@ p {
 }
 
 @media screen and (min-width: 1920px) {
+  .body {
+    overflow: visible;
+  }
+
   .sticky-nav {
     padding-top: 15px;
     padding-right: 5vw;
@@ -5234,6 +5239,14 @@ p {
 
   ._w-nav-menu-btn-icon {
     width: 250%;
+  }
+
+  .c-nav-menu-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 200px;
   }
 
   .menu {
@@ -5952,14 +5965,14 @@ p {
   }
 
   .paragraph-3 {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.4em;
   }
 
   .paragraph-4 {
     margin-top: 0px;
     margin-bottom: 50px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.4em;
   }
 
@@ -5983,7 +5996,11 @@ p {
   }
 
   .c-nav-menu-overlay-bg-3 {
-    height: 100vh;
+    height: 150vh;
+  }
+
+  .c-nav-menu-overlay-3 {
+    display: none;
   }
 
   .div-block-241.privacy {
@@ -7002,7 +7019,7 @@ p {
 
   .section-5 {
     height: auto;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
   }
 
   .aboutagency_section {
@@ -7280,7 +7297,7 @@ p {
 
   .div-block-20 {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-left: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
@@ -8427,7 +8444,7 @@ p {
   }
 
   .faq-block {
-    padding-top: 6px;
+    padding-top: 0px;
   }
 
   .faq-top {
@@ -8585,6 +8602,7 @@ p {
 
   .heading-21 {
     width: 80%;
+    margin-bottom: -14px;
   }
 
   .paragraph-8 {
