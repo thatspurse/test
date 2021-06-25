@@ -5457,8 +5457,8 @@ body::-webkit-scrollbar {
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 75px;
+    line-height: 90px;
   }
 
   .expertise_txt.home1-copy {
@@ -5473,8 +5473,8 @@ body::-webkit-scrollbar {
     margin-top: 10px;
     margin-bottom: 50px;
     padding-bottom: 0px;
-    font-size: 60px;
-    line-height: 54px;
+    font-size: 80px;
+    line-height: 100px;
   }
 
   .expertise_txt.home1 {
