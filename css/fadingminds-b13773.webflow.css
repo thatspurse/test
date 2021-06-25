@@ -9024,6 +9024,10 @@ body::-webkit-scrollbar {
     padding-bottom: 150px;
   }
 
+  .magnetic-buton {
+    padding-top: 7px;
+  }
+
   #w-node-_26a61423-dae0-353a-a983-a1771595702a-75a2df6f {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
