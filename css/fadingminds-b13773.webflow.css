@@ -6317,6 +6317,7 @@ body::-webkit-scrollbar {
     display: -ms-flexbox;
     display: flex;
     width: 50%;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     -webkit-justify-content: space-around;
@@ -6896,6 +6897,10 @@ body::-webkit-scrollbar {
   }
   body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
+  }
+
+  .div-block-236 {
+    padding-top: 20px;
   }
 
   .sticky-nav {
