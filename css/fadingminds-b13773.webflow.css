@@ -3025,9 +3025,9 @@ body::-webkit-scrollbar {
 
 .columns-2 {
   display: -webkit-box;
-  display: -webkit-flex;
+
   display: -ms-flexbox;
-  display: flex;
+
   margin-right: 0px;
   margin-left: 0px;
   padding-bottom: 30px;
@@ -3041,9 +3041,9 @@ body::-webkit-scrollbar {
 
 .columns-3 {
   display: -webkit-box;
-  display: -webkit-flex;
+
   display: -ms-flexbox;
-  display: flex;
+
   margin-right: 0px;
   margin-left: 0px;
   -webkit-box-orient: horizontal;
