@@ -232,7 +232,6 @@ body::-webkit-scrollbar {
 }
 
 .c-nav-social-address {
-  line-height: normal;
   margin-bottom: 20px;
 }
 
@@ -514,7 +513,6 @@ body::-webkit-scrollbar {
 }
 
 ._w-col-menu-social {
-  font-size: x-large;
   padding-bottom: 20px;
   color: #707070;
 }
@@ -3006,7 +3004,7 @@ body::-webkit-scrollbar {
 
 .columns {
   display: -webkit-box;
-  display: -webkit-flex;
+
   display: -ms-flexbox;
   display: flex;
   width: 100%;
