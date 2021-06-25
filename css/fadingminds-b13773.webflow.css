@@ -6317,7 +6317,8 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
+    margin-top: 2%;
+    width: 45%;
     margin-right: auto;
     margin-left: auto;
     -webkit-justify-content: space-around;
