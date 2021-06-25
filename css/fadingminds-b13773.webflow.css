@@ -1286,7 +1286,7 @@ body::-webkit-scrollbar {
 }
 
 .subtitlu-sectiune.home1 {
-  padding-top: 70px;
+  padding-top: 60px;
   color: #000;
 }
 
@@ -4671,7 +4671,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 170px;
     color: #000;
-    font-size: 37px;
+    font-size: 47px;
     line-height: 54px;
     font-weight: 200;
   }
@@ -4782,7 +4782,6 @@ body::-webkit-scrollbar {
   .div-block-233 {
     width: 100%;
     height: 10vh;
-    border-bottom: 1px solid #fff;
   }
 
   .text-block-10 {
@@ -4815,7 +4814,6 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 0px;
   }
 
   .c-nav-menu-overlay-2 {
@@ -5080,7 +5078,7 @@ body::-webkit-scrollbar {
   }
 
   .subtitlu-sectiune.home1 {
-    padding-top: 60px;
+    padding-top: 80px;
     color: #000;
   }
 
@@ -5637,7 +5635,7 @@ body::-webkit-scrollbar {
     z-index: 10;
     height: 10vh;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-family: Lato, sans-serif;
     font-size: 14px;
   }
@@ -5745,7 +5743,7 @@ body::-webkit-scrollbar {
   }
 
   .subtitlu-sectiune.home1 {
-    padding-top: 8vh;
+    padding-top: 7vh;
     color: #000;
     font-size: 16px;
   }
@@ -5897,7 +5895,7 @@ body::-webkit-scrollbar {
   }
 
   .link {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   .list {
@@ -5910,7 +5908,7 @@ body::-webkit-scrollbar {
   }
 
   .container-4 {
-    height: 35vh;
+    height: 50vh;
     padding-bottom: 400px;
   }
 
