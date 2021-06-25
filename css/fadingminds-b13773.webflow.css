@@ -4370,7 +4370,8 @@ body::-webkit-scrollbar {
 }
 
 .columns-6 {
-  width: 70%;
+  margin-top: 2%;
+  width: 45%;
   padding-top: 30px;
 }
 
@@ -6317,8 +6318,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 2%;
-    width: 45%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     -webkit-justify-content: space-around;
