@@ -6171,14 +6171,13 @@ body::-webkit-scrollbar {
   }
 
   .text-block-26 {
-    font-size: 0em;
+    font-size: 1em;
   }
 
   .columns {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
