@@ -1754,7 +1754,7 @@ body::-webkit-scrollbar {
   display: flex;
   overflow: hidden;
   margin-top: 0px;
-  margin-bottom: 40px;
+
   padding: 40px 0vw 36px;
   background-color: #000;
   -o-object-fit: fill;
@@ -5860,7 +5860,7 @@ body::-webkit-scrollbar {
 
   .section-8.thin-section {
     margin-top: 50px;
-    margin-bottom: 80px;
+
     padding-top: 36px;
   }
 
@@ -7870,6 +7870,11 @@ body::-webkit-scrollbar {
 
   .link-block-13 {
     display: none;
+  }
+
+  .section-8.thin-section {
+    padding-bottom: 0px;
+    margin-bottom: -5px;
   }
 
   .section-10 {
