@@ -5816,9 +5816,9 @@ body::-webkit-scrollbar {
 
   .container-3.blog {
     width: 95%;
-    height: 90vh;
+    /* height: 90vh; */
     min-height: 40vh;
-    margin: 150px auto 0px;
+    margin: 150px auto 30px;
     padding-left: 0vw;
     font-size: 15px;
   }
@@ -7865,6 +7865,7 @@ body::-webkit-scrollbar {
   }
 
   .section-10 {
+    margin-top: 40px;
     width: 100vw;
     height: 30vh;
     margin-bottom: 0px;
@@ -8909,7 +8910,7 @@ body::-webkit-scrollbar {
   }
 
   .column-8 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .background-video-8 {
