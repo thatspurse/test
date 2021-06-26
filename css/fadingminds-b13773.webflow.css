@@ -8920,6 +8920,7 @@ body::-webkit-scrollbar {
     margin-right: auto;
     margin-left: auto;
     padding-top: 10px;
+    padding-bottom: 7vh;
   }
 
   .column-8 {
