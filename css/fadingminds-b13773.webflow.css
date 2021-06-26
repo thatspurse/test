@@ -6909,6 +6909,10 @@ body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
   }
 
+  .digital_service_agency.home1.white {
+    margin-top: 30px;
+  }
+
   .div-block-236 {
     padding-top: 20px;
   }
