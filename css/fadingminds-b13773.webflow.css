@@ -7834,8 +7834,8 @@ body::-webkit-scrollbar {
     width: 80%;
     height: 65px;
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 100px;
+    margin-bottom: -25px;
+    padding-top: 50px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
