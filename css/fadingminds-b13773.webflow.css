@@ -7873,11 +7873,11 @@ body::-webkit-scrollbar {
   }
 
   .section-10 {
-    margin-top: 40px;
+    margin-top: 25px;
     width: 100vw;
     height: 30vh;
     margin-bottom: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
