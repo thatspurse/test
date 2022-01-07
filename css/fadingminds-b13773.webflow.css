@@ -5365,6 +5365,14 @@ body::-webkit-scrollbar {
     margin-bottom: 30px;
   }
 
+  .digital_service_agency.home1.white {
+    margin-top: 70px;
+}
+
+.cta_txt.home {
+  margin-top: 50px;
+}
+
   .sticky-nav {
     padding-top: 15px;
     padding-right: 5vw;
