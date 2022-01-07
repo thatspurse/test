@@ -17,7 +17,7 @@
 }
 
 .w-checkbox::before {
-  content: " ";
+  content: ' ';
   display: table;
   -ms-grid-column-span: 1;
   grid-column-end: 2;
@@ -30,7 +30,7 @@
 }
 
 .w-checkbox::after {
-  content: " ";
+  content: ' ';
   display: table;
   -ms-grid-column-span: 1;
   grid-column-end: 2;
@@ -79,7 +79,7 @@
   border-bottom-color: #3898ec;
   border-left-color: #3898ec;
   border-right-color: #3898ec;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,12 +113,6 @@ p {
 
 .body {
   background-color: #000;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
 }
 
 .sticky-nav {
@@ -161,7 +155,7 @@ body::-webkit-scrollbar {
 
 .logo {
   position: relative;
-  z-index: 5;
+  z-index: 0;
   display: inline-block;
   margin-top: auto;
   margin-bottom: auto;
@@ -296,7 +290,6 @@ body::-webkit-scrollbar {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  font-size: 14px;
 }
 
 .nav-social-contact-item-link-text {
@@ -495,7 +488,7 @@ body::-webkit-scrollbar {
 }
 
 .c-nav-menu-content {
-  position: fixed;
+  position: relative;
   z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -504,8 +497,6 @@ body::-webkit-scrollbar {
   overflow: hidden;
   width: 70%;
   max-width: 1200px;
-  margin-top: 0px;
-  padding-bottom: 250px;
 }
 
 ._w-col-menu-links-2 {
@@ -723,7 +714,7 @@ body::-webkit-scrollbar {
   height: 60%;
   padding-top: 5px;
   font-family: Lato, sans-serif;
-  font-size: 3.2em;
+  font-size: 3.3em;
   line-height: 1.1em;
   font-weight: 300;
 }
@@ -735,7 +726,7 @@ body::-webkit-scrollbar {
   margin-right: 0px;
   font-family: Lato, sans-serif;
   font-size: 3.6em;
-  line-height: 1.4em;
+  line-height: 1.6em;
   font-weight: 400;
   text-align: left;
   text-decoration: none;
@@ -863,10 +854,10 @@ body::-webkit-scrollbar {
 
 .digital_service_agency.home1.white {
   z-index: 0;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-left: 0px;
+  padding-left: 1px;
   font-family: Lato, sans-serif;
   color: #7f7f7f;
   font-size: 0.6em;
@@ -977,7 +968,7 @@ body::-webkit-scrollbar {
   bottom: 0%;
   display: block;
   overflow: hidden;
-  height: 40vh;
+  height: 35vh;
   float: none;
   clear: none;
   background-color: #000;
@@ -1025,7 +1016,6 @@ body::-webkit-scrollbar {
 .expertise_title.home {
   width: 99.8240134990321%;
   margin-left: 2px;
-  padding-top: 38px;
   font-family: Lato, sans-serif;
   color: #7f7f7f;
   font-size: 0.8em;
@@ -1144,20 +1134,16 @@ body::-webkit-scrollbar {
 
 .aboutagency_section.home1 {
   z-index: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   overflow: visible;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.91))), url("../images/DSC_3633_mdf1Webres3-scaled-1.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("../images/DSC_3633_mdf1Webres3-scaled-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.91))), url('../images/DSC_3633_mdf1Webres3-scaled-1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url('../images/DSC_3633_mdf1Webres3-scaled-1.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-size: auto, contain;
   text-decoration: none;
 }
 
@@ -1187,7 +1173,7 @@ body::-webkit-scrollbar {
 }
 
 .despre-text.home2 {
-  width: 80%;
+  width: 470px;
   height: 170px;
   font-family: Lato, sans-serif;
   color: #000;
@@ -1286,7 +1272,6 @@ body::-webkit-scrollbar {
 }
 
 .subtitlu-sectiune.home1 {
-  padding-top: 60px;
   color: #000;
 }
 
@@ -1417,7 +1402,7 @@ body::-webkit-scrollbar {
   -ms-flex-align: center;
   align-items: center;
   background-color: #000;
-  background-image: url("../images/poza-birou.jpg");
+  background-image: url('../images/poza-birou.jpg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1478,7 +1463,7 @@ body::-webkit-scrollbar {
 
 .nr-articol {
   width: 30px;
-  font-family: "Droid Sans", sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 .div-block-20 {
@@ -1754,7 +1739,7 @@ body::-webkit-scrollbar {
   display: flex;
   overflow: hidden;
   margin-top: 0px;
-
+  margin-bottom: 40px;
   padding: 40px 0vw 36px;
   background-color: #000;
   -o-object-fit: fill;
@@ -1868,9 +1853,9 @@ body::-webkit-scrollbar {
 }
 
 .heading-7 {
-  margin-top: 80px;
+  margin-top: 40px;
   padding-top: 0px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: Lato, sans-serif;
   color: #a8a8a8;
   font-weight: 400;
 }
@@ -1894,7 +1879,6 @@ body::-webkit-scrollbar {
 
 .div-block-235 {
   width: 70%;
-  padding-right: 15vw;
   margin-left: 0px;
   padding-left: 0px;
 }
@@ -2097,7 +2081,7 @@ body::-webkit-scrollbar {
 .inicio-whit {
   position: relative;
   margin-top: 135px;
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 42px;
@@ -2562,9 +2546,8 @@ body::-webkit-scrollbar {
   height: 30px;
   min-height: 0px;
   margin-bottom: 0px;
-  padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 5px;
+  padding-left: 24px;
   border-style: solid;
   border-width: 1px;
   border-color: #fefeff;
@@ -2595,8 +2578,7 @@ body::-webkit-scrollbar {
   min-height: 120px;
   margin-top: 20px;
   margin-bottom: 24px;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 18px;
   border-radius: 5px;
 }
 
@@ -2746,14 +2728,13 @@ body::-webkit-scrollbar {
 }
 
 .cards-section {
-  padding-top: 300px;
+  padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #fff;
+  background-color: #adadad;
 }
 
 .centered-container {
-  max-width: 70%;
-  margin-top: 50px;
+  max-width: 60%;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2800,8 +2781,6 @@ body::-webkit-scrollbar {
 }
 
 .cards-image.bc2_margin {
-  display: inline-block;
-  margin-top: 0px;
   margin-left: 0px;
 }
 
@@ -2849,7 +2828,7 @@ body::-webkit-scrollbar {
 
 .paragraph-3 {
   width: 90%;
-  font-family: "Fa solid 900", sans-serif;
+  font-family: 'Fa solid 900', sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -2865,7 +2844,7 @@ body::-webkit-scrollbar {
 }
 
 .div-block-236 {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .div-block-237 {
@@ -2877,12 +2856,11 @@ body::-webkit-scrollbar {
 }
 
 .text-span-2 {
-  font-family: "Fa solid 900", sans-serif;
+  font-family: 'Fa solid 900', sans-serif;
   line-height: 0px;
 }
 
 .text-span-3 {
-  padding-left: 2px;
   font-family: Roboto, sans-serif;
   font-size: 1em;
   line-height: 1em;
@@ -2895,7 +2873,6 @@ body::-webkit-scrollbar {
   margin-top: 15px;
   margin-bottom: 30px;
   font-family: Roboto, sans-serif;
-  font-size: 1em;
   text-align: left;
 }
 
@@ -2988,7 +2965,7 @@ body::-webkit-scrollbar {
 .text-block-26 {
   margin-bottom: 0px;
   font-family: Montserrat, sans-serif;
-  color: #1d1d1d;
+  color: #474747;
   font-size: 0.7em;
   line-height: 1.2em;
   font-weight: 600;
@@ -3004,9 +2981,9 @@ body::-webkit-scrollbar {
 
 .columns {
   display: -webkit-box;
-
+  display: -webkit-flex;
   display: -ms-flexbox;
-
+  display: flex;
   width: 100%;
   margin-right: 0%;
   margin-left: 0px;
@@ -3025,9 +3002,9 @@ body::-webkit-scrollbar {
 
 .columns-2 {
   display: -webkit-box;
-
+  display: -webkit-flex;
   display: -ms-flexbox;
-
+  display: flex;
   margin-right: 0px;
   margin-left: 0px;
   padding-bottom: 30px;
@@ -3041,9 +3018,9 @@ body::-webkit-scrollbar {
 
 .columns-3 {
   display: -webkit-box;
-
+  display: -webkit-flex;
   display: -ms-flexbox;
-
+  display: flex;
   margin-right: 0px;
   margin-left: 0px;
   -webkit-box-orient: horizontal;
@@ -3055,17 +3032,17 @@ body::-webkit-scrollbar {
 
 .button-3 {
   width: auto;
-  /* height: 5%; */
+  height: 5%;
   margin-top: 20px;
   margin-right: 0px;
   margin-left: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 0px;
   background-color: #000;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
 }
@@ -3078,14 +3055,7 @@ body::-webkit-scrollbar {
 }
 
 .column-4 {
-  margin-top: auto;
-  margin-bottom: auto;
   padding-right: 30px;
-}
-
-.column-5 {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .menu-btn {
@@ -3637,7 +3607,7 @@ body::-webkit-scrollbar {
 }
 
 .nav-menu-overlay-bg-3 {
-  position: absolute;
+  position: relative;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -3653,12 +3623,12 @@ body::-webkit-scrollbar {
 
 .c-nav-menu-overlay-bg-3 {
   position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  display: block;
-  overflow: hidden;
+  left: auto;
+  top: 0px;
+  right: 2.5%;
+  bottom: auto;
+  display: inline-block;
+  overflow: visible;
   width: 100vw;
   height: auto;
   margin-top: -40px;
@@ -3685,8 +3655,7 @@ body::-webkit-scrollbar {
   display: none;
   overflow: hidden;
   width: auto;
-  height: 150vh;
-  padding-bottom: 200px;
+  height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3695,8 +3664,6 @@ body::-webkit-scrollbar {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
 .c-nav-menu-btn-2 {
@@ -3739,7 +3706,7 @@ body::-webkit-scrollbar {
   padding-top: 0px;
   font-family: Roboto, sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 1.8rem;
   font-weight: 300;
   letter-spacing: 0px;
@@ -3941,7 +3908,7 @@ body::-webkit-scrollbar {
 }
 
 .text-span-6 {
-  font-family: "Fa solid 900", sans-serif;
+  font-family: 'Fa solid 900', sans-serif;
 }
 
 .link-3 {
@@ -3959,7 +3926,7 @@ body::-webkit-scrollbar {
 }
 
 .text-span-8 {
-  font-family: "Fa solid 900", sans-serif;
+  font-family: 'Fa solid 900', sans-serif;
 }
 
 .heading-11 {
@@ -3976,16 +3943,12 @@ body::-webkit-scrollbar {
 }
 
 .section-13 {
-  width: 80%;
   margin-top: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 100px;
-  color: #dedede;
+  padding-top: 50px;
 }
 
 .bold-text-5 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1em;
   font-weight: 400;
@@ -3997,7 +3960,6 @@ body::-webkit-scrollbar {
 
 .heading-12 {
   width: 80%;
-  margin-top: 160px;
   margin-right: auto;
   margin-left: auto;
   font-family: Montserrat, sans-serif;
@@ -4012,17 +3974,6 @@ body::-webkit-scrollbar {
 
 .text-span-9 {
   font-weight: 400;
-}
-
-.text-span-9.port {
-  margin-left: -3px;
-  padding-left: 0px;
-  font-size: 2.2em;
-  font-weight: 700;
-}
-
-.text-span-9.port._2 {
-  margin-left: -2px;
 }
 
 .heading-13 {
@@ -4051,7 +4002,7 @@ body::-webkit-scrollbar {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ececec;
   font-size: 1.3em;
   line-height: 1.7em;
@@ -4189,14 +4140,10 @@ body::-webkit-scrollbar {
   color: #fff;
 }
 
-.faq-wrapper.margin-xl.faq-port {
-  color: #000;
-}
-
 .faq-block {
   width: auto;
   margin-bottom: 10px;
-  padding: 0px;
+  padding: 10px 0px 0px;
   border-style: none;
   border-width: 1px;
   border-color: #161616;
@@ -4223,14 +4170,9 @@ body::-webkit-scrollbar {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Montserrat, sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 0.9em;
   text-transform: uppercase;
-}
-
-.margin-0.srvc {
-  color: #fff;
-  font-size: 20px;
 }
 
 .faq-arrow {
@@ -4238,11 +4180,6 @@ body::-webkit-scrollbar {
   margin-right: 0px;
   -webkit-filter: invert(100%);
   filter: invert(100%);
-}
-
-.faq-arrow.port {
-  -webkit-filter: none;
-  filter: none;
 }
 
 .faq-bottom {
@@ -4256,19 +4193,9 @@ body::-webkit-scrollbar {
 .faq-answer {
   margin-top: 24px;
   margin-left: 0px;
-  font-family: Roboto, sans-serif;
-  color: #333;
+  font-family: Lato, sans-serif;
+  color: #bcbcbc;
   font-size: 1em;
-}
-
-.faq-answer.port {
-  font-family: Roboto, sans-serif;
-  color: #333;
-}
-
-.faq-answer.srvc {
-  color: #a0a0a0;
-  font-size: 14px;
 }
 
 .heading-17 {
@@ -4287,14 +4214,6 @@ body::-webkit-scrollbar {
   width: 100%;
   margin-top: -5px;
   margin-bottom: 45px;
-  font-size: 1.6em;
-  text-align: left;
-}
-
-.heading-17.port2 {
-  width: 70%;
-  margin-top: -10px;
-  color: #000;
   font-size: 1.6em;
   text-align: left;
 }
@@ -4350,28 +4269,24 @@ body::-webkit-scrollbar {
 }
 
 .button-7 {
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
   background-color: rgba(56, 152, 236, 0);
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .button-7._8 {
-  width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
+  width: 95%;
+  padding-right: 20px;
+  padding-left: 20px;
   text-align: center;
 }
 
 .columns-6 {
-  width: 70%;
+  width: 55%;
   padding-top: 30px;
 }
 
@@ -4430,7 +4345,7 @@ body::-webkit-scrollbar {
   margin: 20px auto 30px;
   font-family: Lato, sans-serif;
   color: #bcbcbc;
-  font-size: 16px;
+  font-size: 1.1em;
   text-align: left;
 }
 
@@ -4460,85 +4375,9 @@ body::-webkit-scrollbar {
   padding-bottom: 0px;
   font-family: Montserrat, sans-serif;
   color: #fff;
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.div-block-242 {
-  display: block;
-  margin-top: 0px;
-}
-
-.column-12 {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.paragraph-8 {
-  width: 70%;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
-  padding-top: 0px;
-  font-family: Roboto, sans-serif;
-  font-size: 1em;
-}
-
-.paragraph-9 {
-  width: 80%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 150px;
-  font-family: Lato, sans-serif;
-  color: #fff;
-  font-size: 1em;
-  line-height: 2em;
-}
-
-.text-span-10 {
-  display: block;
-  padding-bottom: 36px;
-  font-family: Montserrat, sans-serif;
-  font-size: 4em;
-  font-weight: 600;
-}
-
-.heading-22 {
-  display: inline;
-  font-family: Montserrat, sans-serif;
-  font-size: 2em;
-}
-
-.bold-text-7 {
-  font-family: Montserrat, sans-serif;
-  font-size: 0.7em;
-}
-
-.bold-text-8 {
-  font-family: Montserrat, sans-serif;
-  font-size: 0.7em;
-}
-
-.paragraph-10 {
-  font-family: Lato, sans-serif;
-}
-
-.paragraph-11 {
-  font-family: Lato, sans-serif;
-}
-
-.paragraph-12 {
-  font-family: Lato, sans-serif;
-}
-
-.italic-text {
-  font-style: normal;
-}
-
-.italic-text-2 {
-  font-style: normal;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4552,18 +4391,15 @@ body::-webkit-scrollbar {
     font-size: 70px;
   }
 
-  .c-col-menu-social {
-    font-size: 20px;
-  }
   .expertise_txt.home {
     width: 470px;
-    height: 120px;
+    height: 170px;
     font-size: 42px;
     line-height: 54px;
   }
 
   .expertise_txt.home1 {
-    font-size: 56px;
+    font-size: 70px;
   }
 
   .cerc-sageata {
@@ -4592,7 +4428,6 @@ body::-webkit-scrollbar {
   }
 
   .digital_service_agency.home1.white {
-    margin-top: 50px;
     color: #fff;
   }
 
@@ -4627,20 +4462,6 @@ body::-webkit-scrollbar {
     justify-content: flex-end;
   }
 
-  .section-3 {
-    height: auto;
-  }
-
-  .container_2 {
-    margin-bottom: 0px;
-  }
-
-  .div-block-227 {
-    margin-bottom: 50px;
-    padding-top: 0px;
-    font-size: 14px;
-  }
-
   .expertise_title.home1 {
     color: #000;
   }
@@ -4661,8 +4482,8 @@ body::-webkit-scrollbar {
   }
 
   .aboutagency_section.home1 {
-    height: 55vw;
-    margin-top: 0px;
+    height: 100vh;
+    margin-top: 50px;
   }
 
   .despre-text {
@@ -4672,10 +4493,10 @@ body::-webkit-scrollbar {
   }
 
   .despre-text.home2 {
-    width: 100%;
+    width: 470px;
     height: 170px;
     color: #000;
-    font-size: 47px;
+    font-size: 42px;
     line-height: 54px;
     font-weight: 200;
   }
@@ -4748,7 +4569,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 200vh;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -4763,15 +4584,14 @@ body::-webkit-scrollbar {
   }
 
   .container-3.blog {
-    width: 74%;
-    height: auto;
-    margin-right: auto;
+    width: 950px;
+    height: 170vh;
+    margin-right: 0px;
     padding-left: 0px;
   }
 
   .div-block-23 {
-    width: 60%;
-    max-width: none;
+    max-width: 280px;
   }
 
   .div-block-19 {
@@ -4779,13 +4599,14 @@ body::-webkit-scrollbar {
   }
 
   .text-block-8 {
-    width: 100%;
+    width: auto;
     line-height: 1.8em;
   }
 
   .div-block-233 {
     width: 100%;
     height: 10vh;
+    border-bottom: 1px solid #fff;
   }
 
   .text-block-10 {
@@ -4802,15 +4623,8 @@ body::-webkit-scrollbar {
     border-bottom-color: #fff;
   }
 
-  .section-8.thin-section {
-    padding-top: 100px;
-  }
-
   .grid-2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 
   .section-10 {
@@ -4869,16 +4683,6 @@ body::-webkit-scrollbar {
     align-items: stretch;
   }
 
-  .paragraph-4 {
-    width: 90%;
-    font-size: 1.1em;
-    line-height: 22px;
-  }
-
-  .image-15 {
-    max-width: 90%;
-  }
-
   .div-block-241.privacy {
     position: static;
     left: 25%;
@@ -4895,59 +4699,20 @@ body::-webkit-scrollbar {
   }
 
   .despre-introo {
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    height: 400px;
   }
 
   .div-buton {
     width: 400px;
     height: 0px;
   }
-
-  .faq-answer {
-    font-size: 1.1em;
-  }
-
-  .faq-answer.srvc {
-    font-size: 16px;
-  }
-
-  .paragraph-7 {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .paragraph-8 {
-    padding-top: 10px;
-    padding-right: 20%;
-    font-size: 1.1em;
-    line-height: 22px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
-  .body {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
-  }
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
-
-  .c-col-menu-social {
-    font-size: 20px;
-  }
   .expertise_txt {
     height: auto;
     font-size: 75px;
     line-height: 90px;
-  }
-
-  .expertise_txt.home1-copy {
-    font-size: 50px;
-    line-height: 1.3em;
   }
 
   .expertise_txt.home {
@@ -4959,10 +4724,6 @@ body::-webkit-scrollbar {
 
   .contact_txt {
     padding-left: 0%;
-  }
-
-  .contact_txt.home {
-    margin-top: 40px;
   }
 
   .digital_service_agency {
@@ -4989,43 +4750,16 @@ body::-webkit-scrollbar {
     align-items: flex-end;
   }
 
-  .div-block-227 {
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .expertise_title {
     position: static;
-  }
-
-  .expertise_title.home {
-    padding-top: 35px;
   }
 
   .expertise_title.home1 {
     color: #000;
   }
 
-  .expertise_title.home1.white {
-    font-size: 11px;
-    font-weight: 400;
-  }
-
   .cta_txt {
     padding-left: 0%;
-  }
-
-  .cta_txt.home {
-    height: auto;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    padding-top: 0px;
-  }
-
-  .section-5 {
-    height: auto;
-    min-height: auto;
   }
 
   .aboutagency_section {
@@ -5034,16 +4768,7 @@ body::-webkit-scrollbar {
   }
 
   .aboutagency_section.home1 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-    height: 189vw;
-    max-height: 25vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
+    height: 100vh;
   }
 
   .despre-text {
@@ -5053,7 +4778,7 @@ body::-webkit-scrollbar {
   }
 
   .despre-text.home2 {
-    width: 80%;
+    width: 470px;
     height: 170px;
     font-size: 42px;
     line-height: 54px;
@@ -5076,16 +4801,11 @@ body::-webkit-scrollbar {
     align-items: flex-start;
   }
 
-  .bold-text {
-    width: 98.7820304708278%;
-  }
-
   .subtitlu-sectiune {
     position: static;
   }
 
   .subtitlu-sectiune.home1 {
-    padding-top: 80px;
     color: #000;
   }
 
@@ -5109,8 +4829,6 @@ body::-webkit-scrollbar {
 
   .background-video-7 {
     height: 100%;
-    margin-top: -45px;
-    padding-bottom: 0px;
   }
 
   .section-6 {
@@ -5120,8 +4838,7 @@ body::-webkit-scrollbar {
 
   .section-6.home-3 {
     height: 100%;
-    margin-top: 158px;
-    background-color: transparent;
+    background-color: #211f28;
   }
 
   .div-block-205.home {
@@ -5137,7 +4854,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 200vh;
     padding-top: 0px;
     padding-right: 0vw;
     padding-left: 0vw;
@@ -5156,10 +4873,10 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 100%;
     max-width: 1030px;
-    min-height: auto;
-    margin-right: auto;
+    min-height: 50vh;
+    margin-right: 0px;
     padding-left: 0vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -5180,23 +4897,11 @@ body::-webkit-scrollbar {
   }
 
   .articol-3 {
-    padding-bottom: 0px;
-  }
-
-  .section-4 {
-    height: auto;
+    padding-bottom: 100px;
   }
 
   .grid-2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .container-4 {
-    height: 50vh;
-    max-width: none;
+    display: none;
   }
 
   .c-nav-menu-overlay-2 {
@@ -5266,19 +4971,6 @@ body::-webkit-scrollbar {
     color: #000;
   }
 
-  .heading-10 {
-    margin-top: -2px;
-  }
-
-  .paragraph-4 {
-    font-size: 1.1em;
-    line-height: 22px;
-  }
-
-  .image-15 {
-    max-width: 80%;
-  }
-
   .div-block-241.privacy {
     bottom: 10%;
   }
@@ -5289,13 +4981,7 @@ body::-webkit-scrollbar {
   }
 
   .despre-introo {
-    height: auto;
-    margin-top: 40px;
-    margin-bottom: 100px;
-  }
-
-  .section-13 {
-    padding-top: 0px;
+    margin-top: 80px;
   }
 
   .faq-wrapper.margin-xl {
@@ -5309,7 +4995,7 @@ body::-webkit-scrollbar {
 
   .margin-0 {
     font-family: Montserrat, sans-serif;
-    color: #000;
+    color: #b6b2b2;
     font-size: 1.4em;
     text-transform: uppercase;
   }
@@ -5321,45 +5007,15 @@ body::-webkit-scrollbar {
 
   .faq-answer {
     font-family: Roboto, sans-serif;
-    color: #181818;
+    color: #878484;
     font-size: 1.2em;
-  }
-
-  .faq-answer.srvc {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .paragraph-7 {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  .paragraph-8 {
-    padding-top: 20px;
-    padding-right: 20%;
-    font-size: 1.2em;
-    line-height: 24px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .body {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
-  }
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
-
   .sticky-nav {
     padding-top: 15px;
     padding-right: 5vw;
-  }
-
-  .c-col-menu-social {
-    font-size: 20px;
   }
 
   .sticky-nav.port_menu {
@@ -5395,15 +5051,6 @@ body::-webkit-scrollbar {
 
   ._w-nav-menu-btn-icon {
     width: 250%;
-  }
-
-  .c-nav-menu-content {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 100px;
-    padding-bottom: 200px;
   }
 
   .menu {
@@ -5474,23 +5121,19 @@ body::-webkit-scrollbar {
   .expertise_txt.home1-copy {
     position: static;
     width: auto;
-    font-size: 70px;
+    font-size: 9em;
   }
 
   .expertise_txt.home {
-    width: 50%;
-    height: 150px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding-bottom: 0px;
-    font-size: 80px;
-    line-height: 100px;
+    width: 470px;
+    height: 170px;
+    font-size: 44px;
+    line-height: 54px;
   }
 
   .expertise_txt.home1 {
-    width: 90%;
-    font-size: 70px;
-    line-height: 1.4em;
+    width: 70%;
+    font-size: 4em;
   }
 
   .cerc-sageata {
@@ -5512,20 +5155,11 @@ body::-webkit-scrollbar {
     bottom: 0%;
     z-index: 10;
     margin-top: 50px;
-    font-size: 16px;
-  }
-
-  .magnetic-buton {
-    width: 80px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    font-size: 21px;
   }
 
   .image-6 {
     position: relative;
-    max-width: 100%;
     color: #000;
   }
 
@@ -5534,20 +5168,18 @@ body::-webkit-scrollbar {
   }
 
   .digital_service_agency.home1.white {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding-left: 0px;
+    padding-left: 1px;
     font-family: Montserrat, sans-serif;
-    font-size: 14px;
+    font-size: 1em;
   }
 
   .imagine-alba {
     max-height: 50px;
-    max-width: 100%;
+    max-width: 50px;
   }
 
   .text.buton {
-    font-size: 22px;
+    font-size: 1.2em;
     text-decoration: none;
   }
 
@@ -5555,7 +5187,7 @@ body::-webkit-scrollbar {
     position: relative;
     top: auto;
     bottom: 200px;
-    margin-top: -550px;
+    margin-top: -500px;
     font-size: 10px;
   }
 
@@ -5583,10 +5215,6 @@ body::-webkit-scrollbar {
     align-items: flex-end;
   }
 
-  .section-3 {
-    height: auto;
-  }
-
   .container_2 {
     position: relative;
     display: block;
@@ -5596,9 +5224,9 @@ body::-webkit-scrollbar {
 
   .div-block-227 {
     display: block;
-    width: 70%;
+    width: 100%;
     height: 288px;
-    padding-top: 10px;
+    padding-top: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -5608,11 +5236,6 @@ body::-webkit-scrollbar {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-  }
-
-  .expertise_title.home {
-    padding-top: 70px;
-    font-size: 16px;
   }
 
   .expertise_title.home._2 {
@@ -5626,7 +5249,7 @@ body::-webkit-scrollbar {
   .expertise_title.home1.white {
     font-family: Lato, sans-serif;
     color: #9f9f9f;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
   }
 
@@ -5644,14 +5267,10 @@ body::-webkit-scrollbar {
     bottom: 0%;
     z-index: 10;
     height: 10vh;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    font-family: Lato, sans-serif;
-    font-size: 14px;
   }
 
   .section-5 {
-    height: auto;
+    height: 80vh;
   }
 
   .aboutagency_section {
@@ -5661,23 +5280,10 @@ body::-webkit-scrollbar {
   }
 
   .aboutagency_section.home1 {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 57vw;
-    max-height: 55vh;
+    height: 50vh;
     margin-right: 0px;
     margin-left: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.68)), to(rgba(0, 0, 0, 0.91))), url("../images/DSC_3633_mdf1Webres3-scaled-1.jpg");
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.91)), url("../images/DSC_3633_mdf1Webres3-scaled-1.jpg");
-    background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
-    -o-object-fit: contain;
-    object-fit: contain;
+    background-size: auto, contain;
   }
 
   .div-block-229 {
@@ -5695,13 +5301,12 @@ body::-webkit-scrollbar {
     align-self: auto;
     font-size: 75px;
     line-height: 90px;
-    text-align: left;
   }
 
   .despre-text.home2 {
     width: 100%;
     height: 170px;
-    padding-top: 10px;
+    padding-top: 40px;
     color: #000;
     font-size: 42px;
     line-height: 54px;
@@ -5747,20 +5352,11 @@ body::-webkit-scrollbar {
   }
 
   .bold-text {
-    width: 70%;
-    max-width: 70%;
-    font-size: 50px;
+    font-size: 1.3em;
   }
 
   .subtitlu-sectiune.home1 {
-    padding-top: 7vh;
     color: #000;
-    font-size: 16px;
-  }
-
-  .subtitlu-sectiune.home4 {
-    font-family: Lato, sans-serif;
-    font-size: 16px;
   }
 
   .industryrec_section {
@@ -5775,9 +5371,7 @@ body::-webkit-scrollbar {
   }
 
   .background-video-7 {
-    height: 90%;
-    padding-bottom: 0px;
-    background-color: transparent;
+    height: 100%;
   }
 
   .section-6 {
@@ -5807,36 +5401,14 @@ body::-webkit-scrollbar {
   }
 
   .section-7 {
-    height: auto;
-    margin-top: -100px;
-    margin-bottom: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    height: 140vh;
   }
 
   .container-3.blog {
-    width: 95%;
-    /* height: 90vh; */
+    height: 90%;
     min-height: 40vh;
-    margin: 150px auto 30px;
-    padding-left: 0vw;
-    font-size: 15px;
-  }
-
-  .div-block-23 {
-    max-width: none;
-  }
-
-  .text-block-9 {
-    font-size: 16px;
-  }
-
-  .div-block-19 {
-    font-size: 1.2em;
-  }
-
-  .text-block-8 {
-    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .div-block-233 {
@@ -5845,23 +5417,9 @@ body::-webkit-scrollbar {
     margin-top: -30px;
   }
 
-  .text-block-10 {
-    font-size: 30px;
-  }
-
-  .articol-3 {
-    font-size: 1.2em;
-  }
-
-  .text-block-7 {
-    font-family: "Droid Sans", sans-serif;
-    font-size: 12px;
-  }
-
   .section-8.thin-section {
-    margin-top: 50px;
-    padding-bottom: 130px;
-    padding-top: 36px;
+    margin-top: 0px;
+    margin-bottom: 80px;
   }
 
   .section-9 {
@@ -5902,24 +5460,6 @@ body::-webkit-scrollbar {
     display: -ms-flexbox;
     display: flex;
     background-color: #000;
-  }
-
-  .link {
-    font-size: 0.7em;
-  }
-
-  .list {
-    font-size: 20px;
-  }
-
-  .heading-7 {
-    margin-bottom: 15px;
-    font-size: 16px;
-  }
-
-  .container-4 {
-    height: 35vh;
-    padding-bottom: 400px;
   }
 
   .c-nav-menu-overlay-2 {
@@ -6097,8 +5637,7 @@ body::-webkit-scrollbar {
 
   .field-label {
     margin-bottom: 10px;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 1.2em;
   }
 
   .large-heading {
@@ -6121,7 +5660,7 @@ body::-webkit-scrollbar {
   }
 
   .bold-text-2 {
-    font-size: 24px;
+    font-size: 1.1em;
     line-height: 1.5em;
   }
 
@@ -6132,7 +5671,7 @@ body::-webkit-scrollbar {
 
   .lf-checkbox-label {
     padding-bottom: 0px;
-    font-size: 18px;
+    font-size: 1.1em;
   }
 
   .text-field-wrapper {
@@ -6153,41 +5692,32 @@ body::-webkit-scrollbar {
     clear: none;
   }
 
-  .body-home {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
-  }
-
   .heading-10 {
-    font-size: 45px;
+    font-size: 2.7em;
     line-height: 1.7em;
   }
 
   .paragraph-3 {
-    font-size: 20px;
+    font-size: 1em;
     line-height: 1.4em;
-  }
-
-  .div-block-236 {
-    padding-top: 150px;
   }
 
   .paragraph-4 {
     margin-top: 0px;
     margin-bottom: 50px;
-    font-size: 22px;
+    font-size: 1.2em;
     line-height: 1.4em;
   }
 
   .text-block-26 {
-    font-size: 1em;
+    font-size: 0em;
   }
 
   .columns {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
-
+    display: flex;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -6195,15 +5725,7 @@ body::-webkit-scrollbar {
   }
 
   .image-15 {
-    max-width: 70%;
-  }
-
-  .c-nav-menu-overlay-bg-3 {
-    height: 150vh;
-  }
-
-  .c-nav-menu-overlay-3 {
-    display: none;
+    max-width: 80%;
   }
 
   .div-block-241.privacy {
@@ -6219,62 +5741,8 @@ body::-webkit-scrollbar {
     width: 100vw;
   }
 
-  .despre-introo {
-    height: auto;
-    padding-bottom: 40px;
-  }
-
   .div-buton {
     height: 70px;
-  }
-
-  .section-13 {
-    padding-top: 0px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .heading-12 {
-    text-align: left;
-  }
-
-  .text-span-9.port._2 {
-    margin-left: -2px;
-  }
-
-  .section-16 {
-    overflow: hidden;
-  }
-
-  .faq-block {
-    padding-top: 10px;
-  }
-
-  .margin-0 {
-    color: #000;
-    font-size: 24px;
-    line-height: 26px;
-  }
-
-  .margin-0.srvc {
-    font-size: 24px;
-    line-height: 26px;
-  }
-
-  .faq-answer {
-    color: #333;
-    font-size: 22px;
-    line-height: 22px;
-  }
-
-  .faq-answer.port {
-    font-size: 22px;
-    line-height: 22px;
-  }
-
-  .faq-answer.srvc {
-    font-size: 20px;
-    line-height: 28px;
   }
 
   .heading-17 {
@@ -6282,11 +5750,7 @@ body::-webkit-scrollbar {
   }
 
   .heading-17.home {
-    font-size: 40px;
-  }
-
-  .heading-17.port2 {
-    font-size: 24px;
+    font-size: 3em;
   }
 
   .section-17 {
@@ -6301,24 +5765,9 @@ body::-webkit-scrollbar {
     font-size: 1.4em;
   }
 
-  .heading-18 {
-    font-size: 60px;
-  }
-
   .button-7 {
-    width: 100%;
-    margin-right: 0px;
     margin-left: 0px;
-    padding: 15px 0px;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .button-7._8 {
-    width: 100%;
-    max-width: none;
-    padding: 15px 0px;
-    font-size: 20px;
+    text-align: left;
   }
 
   .columns-6 {
@@ -6326,8 +5775,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 50%;
-    margin-top: 20px;
+    width: 35%;
     margin-right: auto;
     margin-left: auto;
     -webkit-justify-content: space-around;
@@ -6400,78 +5848,6 @@ body::-webkit-scrollbar {
     height: 30vh;
     background-color: transparent;
   }
-
-  .paragraph-7 {
-    width: 70%;
-    max-width: none;
-    font-size: 22px;
-    line-height: 28px;
-  }
-
-  .heading-21 {
-    font-size: 24px;
-  }
-
-  .paragraph-8 {
-    padding-top: 10px;
-    padding-right: 20%;
-    font-size: 22px;
-    line-height: 26px;
-  }
-
-  .paragraph-9 {
-    padding-top: 300px;
-    padding-bottom: 100px;
-    font-size: 1.3em;
-  }
-
-  .bold-text-7 {
-    font-size: 30px;
-  }
-
-  .bold-text-8 {
-    font-size: 30px;
-    text-align: left;
-  }
-
-  .paragraph-10 {
-    margin-bottom: 50px;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .paragraph-11 {
-    margin-bottom: 50px;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .paragraph-12 {
-    margin-bottom: 50px;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: left;
-  }
-
-  .heading-23 {
-    font-size: 60px;
-    text-align: left;
-  }
-
-  .heading-24 {
-    font-size: 40px;
-    text-align: left;
-  }
-
-  .italic-text {
-    font-style: normal;
-  }
-
-  .italic-text-2 {
-    font-style: normal;
-  }
 }
 
 @media screen and (max-width: 991px) {
@@ -6533,17 +5909,16 @@ body::-webkit-scrollbar {
   }
 
   .grid-2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
+    display: -ms-grid;
+    display: grid;
     justify-items: end;
     -webkit-box-align: end;
     -webkit-align-items: end;
     -ms-flex-align: end;
     align-items: end;
     grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto auto;
@@ -6598,10 +5973,6 @@ body::-webkit-scrollbar {
     grid-column-gap: 20px;
   }
 
-  .paragraph-4 {
-    width: 110%;
-  }
-
   .columns {
     padding-right: 5%;
     padding-left: 0%;
@@ -6639,13 +6010,8 @@ body::-webkit-scrollbar {
   }
 
   .despre-introo {
-    width: 80%;
-    height: auto;
-    margin-top: 50px;
-  }
-
-  .columns-6 {
-    width: 80%;
+    width: 740px;
+    height: 490px;
   }
 }
 
@@ -6669,67 +6035,6 @@ body::-webkit-scrollbar {
 
   .menu-item-text {
     font-size: 3em;
-  }
-
-  .menu.burger {
-    width: 20%;
-  }
-
-  .expertise_txt.home1-copy {
-    min-width: auto;
-    margin-left: 0px;
-    font-size: 2.6em;
-    line-height: 1.2em;
-    font-weight: 400;
-  }
-
-  .expertise_txt.home {
-    width: 100%;
-    min-width: auto;
-    font-family: Lato, sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
-  }
-
-  .expertise_txt.home1 {
-    min-width: auto;
-    font-size: 2.6em;
-  }
-
-  .section-5 {
-    height: 45vh;
-  }
-
-  .despre-text {
-    width: auto;
-    min-width: auto;
-    font-size: 40px;
-  }
-
-  .despre-text.home2 {
-    width: 100%;
-    min-width: auto;
-  }
-
-  .bold-text {
-    width: auto;
-  }
-
-  .section-7 {
-    height: auto;
-  }
-
-  .container-3.blog {
-    width: 100%;
-    height: auto;
-  }
-
-  .div-block-23 {
-    margin-left: 0px;
-  }
-
-  .text-block-8 {
-    width: 120%;
   }
 
   .call-to-action-heading {
@@ -6871,28 +6176,8 @@ body::-webkit-scrollbar {
     text-align: center;
   }
 
-  .section-13 {
-    padding-top: 30px;
-  }
-
   .faq-wrapper {
     padding-right: 0px;
-  }
-
-  .button-7 {
-    font-size: 13px;
-  }
-
-  .button-7._8 {
-    font-size: 13px;
-  }
-
-  .columns-6 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 95%;
   }
 }
 
@@ -6900,25 +6185,6 @@ body::-webkit-scrollbar {
   .body {
     height: 42vh;
     background-color: #000;
-
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
-  }
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
-
-  .digital_service_agency.home1.white {
-    margin-top: 40px;
-  }
-
-  .heading-17.home {
-    margin-bottom: 30px;
-  }
-
-  .div-block-236 {
-    padding-top: 20px;
   }
 
   .sticky-nav {
@@ -6930,23 +6196,6 @@ body::-webkit-scrollbar {
     display: flex;
     margin-right: 0px;
     padding: 0px 10px;
-  }
-
-  .button-3 {
-    width: auto;
-    /* height: 5%; */
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 0px;
-    background-color: #000;
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
   }
 
   .sticky-nav.port_menu {
@@ -6966,7 +6215,7 @@ body::-webkit-scrollbar {
   .logo {
     position: -webkit-sticky;
     position: sticky;
-    z-index: 5;
+    z-index: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -7044,9 +6293,6 @@ body::-webkit-scrollbar {
     z-index: 3;
     display: block;
     width: 85%;
-    max-width: none;
-    margin-top: 0px;
-    padding-bottom: 0px;
   }
 
   .menu-item-text {
@@ -7084,9 +6330,8 @@ body::-webkit-scrollbar {
   }
 
   .menu.burger {
-    width: 70%;
     height: 100%;
-    margin-right: 0px;
+    margin-right: -15px;
   }
 
   .nav-menu-btn-line.short {
@@ -7158,7 +6403,7 @@ body::-webkit-scrollbar {
     min-width: auto;
     padding-top: 0px;
     font-family: Lato, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.8em;
     line-height: 1.4em;
     font-weight: 400;
   }
@@ -7167,7 +6412,7 @@ body::-webkit-scrollbar {
     width: 100%;
     min-width: auto;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-    font-size: 1.6em;
+    font-size: 2em;
     line-height: 1.4em;
     text-decoration: none;
   }
@@ -7227,7 +6472,7 @@ body::-webkit-scrollbar {
     width: 209px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    padding-left: 2px;
+    padding-left: 0px;
     font-family: Lato, sans-serif;
     font-weight: 400;
   }
@@ -7312,7 +6557,7 @@ body::-webkit-scrollbar {
 
   .div-block-227 {
     width: 100%;
-    height: auto;
+    height: 230px;
     padding-top: 0px;
   }
 
@@ -7324,6 +6569,7 @@ body::-webkit-scrollbar {
 
   .expertise_title.home {
     width: 120px;
+    margin-top: 30px;
     padding-bottom: 0px;
     font-family: Lato, sans-serif;
   }
@@ -7379,8 +6625,7 @@ body::-webkit-scrollbar {
   }
 
   .section-5 {
-    height: auto;
-    padding-bottom: 20px;
+    height: 55vh;
   }
 
   .aboutagency_section {
@@ -7407,7 +6652,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 30vh;
+    height: 40vh;
     padding-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7443,7 +6688,7 @@ body::-webkit-scrollbar {
   .despre-text {
     display: block;
     width: 80%;
-    height: 30px;
+    height: 40px;
     min-width: 0px;
     margin-right: auto;
     margin-left: auto;
@@ -7517,7 +6762,7 @@ body::-webkit-scrollbar {
     position: relative;
     z-index: 1;
     width: 102%;
-    font-size: 0.7em;
+    font-size: 0.8em;
     line-height: 1em;
     font-weight: 400;
     text-align: left;
@@ -7534,8 +6779,6 @@ body::-webkit-scrollbar {
 
   .subtitlu-sectiune.home1 {
     width: 100%;
-    padding-top: 0px;
-    padding-bottom: 0px;
     font-family: Lato, sans-serif;
     text-align: left;
   }
@@ -7624,7 +6867,7 @@ body::-webkit-scrollbar {
   .section-7 {
     z-index: 0;
     width: 100vw;
-    height: auto;
+    height: 160vh;
     margin-top: -70px;
     padding-right: 0vw;
     padding-left: 0vw;
@@ -7636,8 +6879,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
-    min-height: auto;
+    height: 170vh;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7660,7 +6902,7 @@ body::-webkit-scrollbar {
 
   .div-block-20 {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-left: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
@@ -7683,10 +6925,6 @@ body::-webkit-scrollbar {
     margin-left: 0px;
   }
 
-  .text-block-9 {
-    letter-spacing: 1px;
-  }
-
   .dreapta {
     position: relative;
     z-index: 0;
@@ -7694,7 +6932,7 @@ body::-webkit-scrollbar {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: auto;
+    height: 160vh;
     margin-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -7730,10 +6968,7 @@ body::-webkit-scrollbar {
 
   .text-block-8 {
     width: 100%;
-    font-family: Lato, sans-serif;
-    color: #d7d7d7;
-    font-size: 1.1em;
-    font-weight: 300;
+    font-size: 1em;
   }
 
   .div-block-233 {
@@ -7831,24 +7066,15 @@ body::-webkit-scrollbar {
   }
 
   .grid-2 {
-    width: 80%;
+    width: 260px;
     height: 65px;
     margin-top: 0px;
-    margin-bottom: -25px;
-    padding-top: 50px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: auto auto;
@@ -7872,17 +7098,11 @@ body::-webkit-scrollbar {
     display: none;
   }
 
-  .section-8.thin-section {
-    padding-bottom: 0px;
-    margin-bottom: -5px;
-  }
-
   .section-10 {
-    margin-top: 25px;
     width: 100vw;
     height: 30vh;
     margin-bottom: 0px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7913,7 +7133,7 @@ body::-webkit-scrollbar {
 
   .div-block-235 {
     width: 80%;
-    margin-top: 40px;
+    margin-top: 47px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -8270,7 +7490,7 @@ body::-webkit-scrollbar {
   }
 
   .cards-section {
-    padding-top: 90px;
+    padding-top: 150px;
   }
 
   .centered-container {
@@ -8349,10 +7569,6 @@ body::-webkit-scrollbar {
   .body-contact {
     height: auto;
     background-color: #000;
-  }
-
-  .text-block-26 {
-    color: #000;
   }
 
   .columns {
@@ -8562,9 +7778,8 @@ body::-webkit-scrollbar {
   .image-15 {
     position: -webkit-sticky;
     position: sticky;
-    max-width: 5vh;
-    margin-left: 5px;
-    padding-left: 0px;
+    max-width: 6vh;
+    padding-left: 5px;
   }
 
   .container-6 {
@@ -8610,16 +7825,13 @@ body::-webkit-scrollbar {
   }
 
   .c-nav-menu-overlay-bg-3 {
-    position: absolute;
-    left: 0%;
+    left: auto;
     top: 0%;
     right: 0%;
-    bottom: 0%;
+    bottom: auto;
     overflow: visible;
     height: auto;
-    max-height: none;
-    min-height: auto;
-    margin-top: 0px;
+    min-height: 1000px;
     -o-object-fit: contain;
     object-fit: contain;
   }
@@ -8628,8 +7840,7 @@ body::-webkit-scrollbar {
     position: fixed;
     z-index: 0;
     display: none;
-    height: 120vh;
-    padding-bottom: 50px;
+    height: 100vh;
   }
 
   .div-text {
@@ -8727,7 +7938,7 @@ body::-webkit-scrollbar {
   }
 
   .sectiune-cheie.privacy {
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .text-span-5 {
@@ -8738,8 +7949,7 @@ body::-webkit-scrollbar {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: -10px;
-    padding-top: 0px;
+    padding-top: 80px;
     padding-left: 0px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
@@ -8759,14 +7969,7 @@ body::-webkit-scrollbar {
   }
 
   .heading-12 {
-    margin-top: 100px;
-    margin-bottom: 0px;
     font-size: 1.2em;
-  }
-
-  .text-span-9.port._2 {
-    margin-left: -1px;
-    font-size: 1.5em;
   }
 
   .section-14 {
@@ -8811,24 +8014,14 @@ body::-webkit-scrollbar {
 
   .section-16 {
     height: auto;
-    margin-top: -20px;
   }
 
   .faq-wrapper.margin-xl {
     width: 80%;
   }
 
-  .faq-wrapper.margin-xl.faq-port {
-    width: 90%;
-  }
-
-  .faq-block {
-    padding-top: 0px;
-  }
-
   .faq-top {
     width: 100%;
-    margin-top: 20px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -8848,32 +8041,12 @@ body::-webkit-scrollbar {
     font-family: Lato, sans-serif;
   }
 
-  .faq-answer.port {
-    font-style: normal;
-  }
-
-  .faq-answer.srvc {
-    color: #bcbcbc;
-    line-height: 16px;
-  }
-
   .heading-17 {
     width: 80%;
     margin-top: 100px;
     margin-bottom: -15px;
-    padding-left: 1px;
-    font-size: 1em;
-    text-align: left;
-  }
-
-  .heading-17.port2 {
-    width: 90%;
-    font-size: 1.6em;
-  }
-
-  .heading-17.port2.fm {
-    margin-bottom: -20px;
     font-size: 1.2em;
+    text-align: left;
   }
 
   .section-17 {
@@ -8901,30 +8074,24 @@ body::-webkit-scrollbar {
   }
 
   .button-7 {
-    width: 100%;
     font-size: 12px;
     text-align: center;
   }
 
   .button-7._8 {
-    display: block;
     width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .columns-6 {
-    display: block;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-top: 10px;
-    padding-bottom: 7vh;
   }
 
   .column-8 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .background-video-8 {
@@ -8936,7 +8103,7 @@ body::-webkit-scrollbar {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    font-size: 1.6em;
+    font-size: 2em;
     line-height: 30px;
     text-align: center;
   }
@@ -8971,7 +8138,7 @@ body::-webkit-scrollbar {
     width: 80%;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 2.4em;
+    font-size: 2.5em;
     text-align: left;
   }
 
@@ -8979,48 +8146,12 @@ body::-webkit-scrollbar {
     width: 80%;
     margin-top: 10px;
     font-family: Lato, sans-serif;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 1em;
+    line-height: 1.2em;
   }
 
   .heading-21 {
     width: 80%;
-    margin-bottom: -14px;
-  }
-
-  .paragraph-8 {
-    width: 90%;
-    margin-top: 18px;
-  }
-
-  .bold-text-8 {
-    font-size: 0.7em;
-  }
-
-  .paragraph-10 {
-    margin-bottom: 40px;
-  }
-
-  .paragraph-11 {
-    margin-bottom: 40px;
-  }
-
-  .heading-23 {
-    font-size: 2em;
-    line-height: 1em;
-  }
-
-  .heading-24 {
-    font-size: 2em;
-    line-height: 1em;
-  }
-
-  .italic-text {
-    font-style: normal;
-  }
-
-  .italic-text-2 {
-    font-style: normal;
   }
 }
 
@@ -9032,15 +8163,6 @@ body::-webkit-scrollbar {
     align-self: center;
     -ms-grid-column-align: center;
     justify-self: center;
-  }
-
-  .aboutagency_section.home1 {
-    padding-top: 100px;
-    padding-bottom: 150px;
-  }
-
-  .magnetic-buton {
-    padding-top: 7px;
   }
 
   #w-node-_26a61423-dae0-353a-a983-a1771595702a-75a2df6f {
@@ -9576,8 +8698,8 @@ body::-webkit-scrollbar {
 }
 
 @font-face {
-  font-family: "Fa solid 900";
-  src: url("../fonts/fa-solid-900.woff2") format("woff2");
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: auto;
